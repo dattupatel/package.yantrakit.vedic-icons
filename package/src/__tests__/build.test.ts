@@ -6,42 +6,49 @@ const distDir = path.resolve(__dirname, '../../dist');
 
 describe('build output', () => {
   it('should have vedic-icons.css in dist', () => {
-    const exists = fs.existsSync(path.resolve(distDir, 'vedic-icons.css'));
-    expect(exists).toBe(true);
+    expect(fs.existsSync(path.resolve(distDir, 'vedic-icons.css'))).toBe(true);
   });
 
-  it('should have woff2 font file in dist/fonts', () => {
-    const exists = fs.existsSync(path.resolve(distDir, 'fonts/vedic-icons.woff2'));
-    expect(exists).toBe(true);
+  it('should have solid font files in dist/fonts', () => {
+    expect(fs.existsSync(path.resolve(distDir, 'fonts/vedic-icons-solid.woff2'))).toBe(true);
+    expect(fs.existsSync(path.resolve(distDir, 'fonts/vedic-icons-solid.ttf'))).toBe(true);
   });
 
-  it('should have ttf font file in dist/fonts', () => {
-    const exists = fs.existsSync(path.resolve(distDir, 'fonts/vedic-icons.ttf'));
-    expect(exists).toBe(true);
+  it('should have outlined font files in dist/fonts', () => {
+    expect(fs.existsSync(path.resolve(distDir, 'fonts/vedic-icons-outlined.woff2'))).toBe(true);
+    expect(fs.existsSync(path.resolve(distDir, 'fonts/vedic-icons-outlined.ttf'))).toBe(true);
   });
 
   it('should include .vi base class in CSS', () => {
     const css = fs.readFileSync(path.resolve(distDir, 'vedic-icons.css'), 'utf-8');
-    expect(css).toContain('.vi');
-    expect(css).toContain("font-family: 'vedic-icons'");
+    expect(css).toContain('.vi {');
+    expect(css).toContain('display: inline-block');
   });
 
-  it('should include icon class for diya', () => {
+  it('should include solid style with diya icon', () => {
     const css = fs.readFileSync(path.resolve(distDir, 'vedic-icons.css'), 'utf-8');
-    expect(css).toContain('.vi-diya');
+    expect(css).toContain('.vi-solid');
+    expect(css).toContain('.vi-solid.vi-diya::before');
   });
 
-  it('should include utility classes', () => {
+  it('should include outlined style with diya icon', () => {
     const css = fs.readFileSync(path.resolve(distDir, 'vedic-icons.css'), 'utf-8');
-    expect(css).toContain('.vi-spin');
-    expect(css).toContain('.vi-2x');
-    expect(css).toContain('.vi-fw');
-    expect(css).toContain('.vi-rotate-90');
-    expect(css).toContain('.vi-flip-h');
+    expect(css).toContain('.vi-outlined');
+    expect(css).toContain('.vi-outlined.vi-diya::before');
   });
 
-  it('should reference font files with correct path', () => {
+  it('should have separate font-face for each style', () => {
     const css = fs.readFileSync(path.resolve(distDir, 'vedic-icons.css'), 'utf-8');
-    expect(css).toContain('./fonts/vedic-icons.woff2');
+    expect(css).toContain('font-family: "vedic-icons-solid"');
+    expect(css).toContain('font-family: "vedic-icons-outlined"');
+  });
+
+  it('should not include any vi-* utility classes', () => {
+    const css = fs.readFileSync(path.resolve(distDir, 'vedic-icons.css'), 'utf-8');
+    expect(css).not.toContain('.vi-spin');
+    expect(css).not.toContain('.vi-2x');
+    expect(css).not.toContain('.vi-fw');
+    expect(css).not.toContain('.vi-rotate');
+    expect(css).not.toContain('.vi-flip');
   });
 });
