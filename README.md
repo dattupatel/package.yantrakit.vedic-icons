@@ -55,8 +55,8 @@ pnpm add @yantrakit/vedic-icons
 
 ```html
 <i class="vi vi-diya"></i>
-<i class="vi vi-lotus text-red-500 text-3xl"></i>
-<i class="vi vi-chakra vi-spin"></i>
+<i class="vi vi-diya text-red-500 text-3xl"></i>
+<i class="vi vi-diya vi-spin"></i>
 ```
 
 ## License

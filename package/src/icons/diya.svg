@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
-  <path fill="currentColor" d="M500 80c-15 40-55 100-55 160 0 65 25 95 55 95s55-30 55-95c0-60-40-120-55-160z"/>
-  <path fill="currentColor" d="M280 520c0 0 20 130 220 130s220-130 220-130H280z"/>
-  <path fill="currentColor" d="M230 480h540c15 0 25 12 20 26-5 14-20 24-35 24H245c-15 0-30-10-35-24-5-14 5-26 20-26z"/>
-  <path fill="currentColor" d="M460 370h80v110h-80z"/>
-  <path fill="currentColor" d="M350 680h300c20 0 35 15 35 35v20c0 15-15 30-35 30H350c-20 0-35-15-35-30v-20c0-20 15-35 35-35z"/>
-  <path fill="currentColor" d="M470 650h60v30h-60z"/>
-  <path fill="currentColor" d="M320 790h360c15 0 28 12 28 28v12c0 15-13 28-28 28H320c-15 0-28-13-28-28v-12c0-16 13-28 28-28z"/>
-</svg>
