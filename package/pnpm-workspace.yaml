@@ -1,0 +1,4 @@
+onlyBuiltDependencies:
+  - esbuild
+  - ttf2woff2
+  - es5-ext

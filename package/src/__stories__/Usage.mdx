@@ -1,0 +1,56 @@
+{/* Usage.mdx */}
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Getting Started/Introduction" />
+
+# Vedic Icons
+
+A pure CSS, class-based icon library inspired by Indian art, culture, and sacred geometry.
+
+## Installation
+
+```bash
+pnpm add @yantrakit/vedic-icons
+```
+
+## Import
+
+```html
+<link rel="stylesheet" href="path/to/vedic-icons.css" />
+```
+
+```js
+import '@yantrakit/vedic-icons/css';
+```
+
+## Usage
+
+```html
+<i class="vi vi-diya"></i>
+<i class="vi vi-lotus"></i>
+```
+
+## Sizing
+
+Built-in size classes or Tailwind's `text-*`:
+
+```html
+<i class="vi vi-diya vi-2x"></i>
+<i class="vi vi-diya text-3xl"></i>
+```
+
+## Color
+
+Icons inherit CSS `color`. Tailwind `text-*` works naturally:
+
+```html
+<i class="vi vi-diya text-amber-400"></i>
+```
+
+## Utilities
+
+```html
+<i class="vi vi-lotus vi-spin"></i>
+<i class="vi vi-diya vi-rotate-90"></i>
+<i class="vi vi-lotus vi-flip-h"></i>
+```
