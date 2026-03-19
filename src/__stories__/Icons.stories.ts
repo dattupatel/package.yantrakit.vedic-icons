@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/html';
 import '../../dist/vedic-icons.css';
 
-const AVAILABLE_ICONS = ['diya'];
+const AVAILABLE_ICONS = ['diya', 'om'];
 const AVAILABLE_STYLES = ['vi-solid', 'vi-outlined'];
 
 interface iIconArgs {
