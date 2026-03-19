@@ -15,7 +15,7 @@
  */
 
 /** List of all available icon names. */
-export const icons = ['diya'] as const;
+export const icons = ['diya', 'om'] as const;
 
 /** Type representing a valid icon name. */
 export type iIconName = (typeof icons)[number];
