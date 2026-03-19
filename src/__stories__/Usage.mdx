@@ -7,50 +7,73 @@ import { Meta } from '@storybook/blocks';
 
 A pure CSS, class-based icon library inspired by Indian art, culture, and sacred geometry.
 
+**[Website](https://vedic-icons.yantrakit.com)** | **[npm](https://www.npmjs.com/package/@yantrakit/vedic-icons)** | **[GitHub](https://github.com/dattupatel/package.yantrakit.vedic-icons)**
+
 ## Installation
 
 ```bash
+npm install @yantrakit/vedic-icons
+# or
+yarn add @yantrakit/vedic-icons
+# or
 pnpm add @yantrakit/vedic-icons
 ```
 
-## Import
+## Setup
+
+Import the CSS in your entry file:
+
+```js
+import '@yantrakit/vedic-icons';
+```
+
+Or via a link tag in HTML:
 
 ```html
 <link rel="stylesheet" href="path/to/vedic-icons.css" />
 ```
 
-```js
-import '@yantrakit/vedic-icons/css';
-```
-
 ## Usage
 
+Every icon requires three classes: `vi` (base), a style (`vi-solid` or `vi-outlined`), and the icon name.
+
 ```html
-<i class="vi vi-diya"></i>
-<i class="vi vi-lotus"></i>
+<i class="vi vi-solid vi-diya"></i>
+<i class="vi vi-outlined vi-diya"></i>
+<i class="vi vi-solid vi-om"></i>
 ```
 
 ## Sizing
 
-Built-in size classes or Tailwind's `text-*`:
+Icons inherit `font-size`. Use your CSS framework's text size classes:
 
 ```html
-<i class="vi vi-diya vi-2x"></i>
-<i class="vi vi-diya text-3xl"></i>
+<i class="vi vi-solid vi-diya text-3xl"></i>
+<i class="vi vi-solid vi-om text-5xl"></i>
 ```
 
 ## Color
 
-Icons inherit CSS `color`. Tailwind `text-*` works naturally:
+Icons inherit `color`. Tailwind `text-*` works naturally:
 
 ```html
-<i class="vi vi-diya text-amber-400"></i>
+<i class="vi vi-solid vi-diya text-red-500"></i>
+<i class="vi vi-solid vi-om text-amber-400"></i>
 ```
 
-## Utilities
+## Transforms & Animation
+
+Use your CSS framework for rotation, flip, and animation:
 
 ```html
-<i class="vi vi-lotus vi-spin"></i>
-<i class="vi vi-diya vi-rotate-90"></i>
-<i class="vi vi-lotus vi-flip-h"></i>
+<i class="vi vi-solid vi-diya rotate-90"></i>
+<i class="vi vi-solid vi-om scale-x-[-1]"></i>
+<i class="vi vi-solid vi-diya animate-spin"></i>
 ```
+
+## Available Styles
+
+| Style | Class | Description |
+|-------|-------|-------------|
+| Solid | `vi-solid` | Filled silhouettes |
+| Outlined | `vi-outlined` | Hollow outlined versions |
