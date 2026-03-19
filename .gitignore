@@ -1,0 +1,19 @@
+node_modules
+.DS_Store
+*.pem
+.env*
+.vercel
+*.tsbuildinfo
+.pnpm-debug.log*
+
+# next.js
+.next/
+out/
+
+# build
+dist/
+build/
+storybook-static/
+
+# coverage
+coverage/

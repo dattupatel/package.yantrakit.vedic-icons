@@ -1,0 +1,64 @@
+{
+  "name": "@yantrakit/vedic-icons",
+  "version": "0.1.0",
+  "description": "A pure CSS, class-based icon library inspired by Indian art, culture, and sacred geometry",
+  "main": "./dist/vedic-icons.css",
+  "exports": {
+    ".": "./dist/vedic-icons.css",
+    "./css": "./dist/vedic-icons.css",
+    "./font/*": "./dist/fonts/*"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": true,
+  "scripts": {
+    "build": "rm -rf dist && node scripts/build-font.mjs && node scripts/build-css.mjs",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "prepublishOnly": "pnpm build",
+    "storybook": "storybook dev -p 21470",
+    "build-storybook": "STORYBOOK_BASE=/storybook/ storybook build -o storybook-static"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@storybook/addon-essentials": "^8.6.14",
+    "@storybook/html": "^8.6.18",
+    "@storybook/html-vite": "^8.6.18",
+    "@tailwindcss/postcss": "^4",
+    "@vitest/coverage-v8": "^4.1.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.0.0",
+    "fantasticon": "^3.0.0",
+    "postcss": "^8.5.6",
+    "storybook": "^8.6.18",
+    "tailwindcss": "^4",
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0",
+    "typescript-eslint": "^8.57.0",
+    "vite": "^6.4.1",
+    "vitest": "^4.1.0"
+  },
+  "keywords": [
+    "icons",
+    "icon-font",
+    "css",
+    "vedic",
+    "indian",
+    "font-awesome-alternative",
+    "sacred-geometry"
+  ],
+  "author": "Yantrakit Inc",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dattupatel/package.yantrakit.vedic-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dattupatel/package.yantrakit.vedic-icons/issues"
+  },
+  "homepage": "https://vedic-icons.yantrakit.com"
+}
