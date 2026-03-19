@@ -33,6 +33,15 @@ Vedic Icons is a CSS icon font. Include the CSS, add the classes, done. No JavaS
 
 Size, color, rotation, and animation come from your own CSS framework (Tailwind, Bootstrap, etc.).
 
+## URLs
+
+| Environment | App | URL |
+|-------------|-----|-----|
+| Production | Storybook | https://vedic-icons.yantrakit.com/storybook/ |
+| Production | Website | https://vedic-icons.yantrakit.com |
+| Production | npm | https://www.npmjs.com/package/@yantrakit/vedic-icons |
+| Local | Storybook | http://vedic-icons-storybook.local:21470 |
+
 ## Local Development
 
 ### Prerequisites
@@ -40,7 +49,8 @@ Size, color, rotation, and animation come from your own CSS framework (Tailwind,
 Add the following to `/etc/hosts`:
 
 ```
-127.0.0.1     vedic-icons-storybook.local # port 21470
+# vedic-icons-storybook ->  vedic-icons.yantrakit.com/storybook
+127.0.0.1                   vedic-icons-storybook.local # port 21470
 ```
 
 ### Storybook
@@ -49,11 +59,21 @@ Add the following to `/etc/hosts`:
 pnpm install && pnpm storybook
 ```
 
-Runs at http://vedic-icons-storybook.local:21470
+### Build
+
+```bash
+pnpm build
+```
+
+### Tests
+
+```bash
+pnpm test:run
+```
 
 ## Contributing
 
-Issues and pull requests are welcome on [GitHub](https://github.com/dattupatel/package.yantrakit.vedic-icons).
+Issues and pull requests are welcome.
 
 ## License
 
