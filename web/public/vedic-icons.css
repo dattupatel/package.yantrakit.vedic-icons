@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "vedic-icons-solid";
+    src: url("/fonts/vedic-icons-solid.woff2?1bcdf7619dddca94a9acc6a36d07d39f") format("woff2"),
+url("/fonts/vedic-icons-solid.ttf?1bcdf7619dddca94a9acc6a36d07d39f") format("truetype");
+}
+@font-face {
+    font-family: "vedic-icons-outlined";
+    src: url("/fonts/vedic-icons-outlined.woff2?ebb353b2a6811216aa5e050f4828e72b") format("woff2"),
+url("/fonts/vedic-icons-outlined.ttf?ebb353b2a6811216aa5e050f4828e72b") format("truetype");
+}
+
+.vi {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* solid style */
+.vi-solid {
+    font-family: 'vedic-icons-solid' !important;
+}
+
+.vi-solid.vi-diya::before { content: "\f101"; }
+
+/* outlined style */
+.vi-outlined {
+    font-family: 'vedic-icons-outlined' !important;
+}
+
+.vi-outlined.vi-diya::before { content: "\f101"; }
+
+/* No utility classes — use your CSS framework (Tailwind, Bootstrap, etc.) for sizing, color, rotation, animation */
