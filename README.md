@@ -2,12 +2,31 @@
 
 A pure CSS, class-based icon library inspired by Indian art, culture, and sacred geometry.
 
-**[View Documentation & Examples →](https://vedic-icons.yantrakit.com)**
+**[Documentation & Examples](https://vedic-icons.yantrakit.com)** | **[GitHub](https://github.com/dattupatel/package.yantrakit.vedic-icons)** | **[npm](https://www.npmjs.com/package/@yantrakit/vedic-icons)**
 
 ## Installation
 
 ```bash
+npm install @yantrakit/vedic-icons
+# or
+yarn add @yantrakit/vedic-icons
+# or
 pnpm add @yantrakit/vedic-icons
+```
+
+## Setup
+
+Import the CSS in your project:
+
+```js
+// In your entry file (e.g., app.tsx, main.ts, layout.tsx)
+import '@yantrakit/vedic-icons';
+```
+
+Or via a link tag:
+
+```html
+<link rel="stylesheet" href="node_modules/@yantrakit/vedic-icons/dist/vedic-icons.css" />
 ```
 
 ## Usage
@@ -33,47 +52,9 @@ Vedic Icons is a CSS icon font. Include the CSS, add the classes, done. No JavaS
 
 Size, color, rotation, and animation come from your own CSS framework (Tailwind, Bootstrap, etc.).
 
-## URLs
-
-| Environment | App | URL |
-|-------------|-----|-----|
-| Production | Storybook | https://vedic-icons.yantrakit.com/storybook/ |
-| Production | Website | https://vedic-icons.yantrakit.com |
-| Production | npm | https://www.npmjs.com/package/@yantrakit/vedic-icons |
-| Local | Storybook | http://vedic-icons-storybook.local:21470 |
-
-## Local Development
-
-### Prerequisites
-
-Add the following to `/etc/hosts`:
-
-```
-# vedic-icons-storybook ->  vedic-icons.yantrakit.com/storybook
-127.0.0.1                   vedic-icons-storybook.local # port 21470
-```
-
-### Storybook
-
-```bash
-pnpm install && pnpm storybook
-```
-
-### Build
-
-```bash
-pnpm build
-```
-
-### Tests
-
-```bash
-pnpm test:run
-```
-
 ## Contributing
 
-Issues and pull requests are welcome.
+Found a bug or have a feature request? [Open an issue](https://github.com/dattupatel/package.yantrakit.vedic-icons/issues).
 
 ## License
 
