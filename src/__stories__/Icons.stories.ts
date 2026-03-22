@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/html';
 import '../../dist/vedic-icons.css';
 
-const AVAILABLE_ICONS = ['diya', 'om'];
-const AVAILABLE_STYLES = ['vi-solid', 'vi-outlined'];
+const AVAILABLE_ICONS = ['agni-dev','ashoka-chakra','brahma','calendar-holi','calendar-pongol','calendar-swastika','chandra','coin','conch-shell','diya','durga','face-male-sikh','family-gathering','female','firecracker','firecracker-02','ganesha','golden-temple','granth-swastika','hand-holding-rupee','hanumaan','hanumaan-02','havan-fire','india-map','indian-flag','kalash-swastika','kali','kartikeya','konark-sun-temple','krishna','krishna-02','krishna-with-cow','kurma','lakshmi','lingam','lotus','male-sikh','male-sikh02','mandala','mandala-02','matsya','meenakshi-temple','namaste','narasimha','om','parvati','peacock','qutub-minar','radha','rama','rangoli','red-fort','saraswati','scroll','scroll-02','scroll-03','scroll-rolled','scroll-rolled02','shiva','trishul','tilak','sita','surya','taj-mahal','temple','vamana','varaha'];
+const AVAILABLE_STYLES = ['vi-solid', 'vi-outlined', 'vi-color'];
 
 interface iIconArgs {
   icon: string;
@@ -85,7 +85,14 @@ export const Playground: iStory = {
 };
 
 export const AllIcons: iStory = {
-  render: () => {
+  argTypes: {
+    icon: { table: { disable: true } },
+    style: { table: { disable: true } },
+    spin: { table: { disable: true } },
+    rotate: { table: { disable: true } },
+    flip: { table: { disable: true } },
+  },
+  render: (args) => {
     const styles = ['solid', 'outlined'];
 
     const grid = styles
@@ -93,7 +100,7 @@ export const AllIcons: iStory = {
         const icons = AVAILABLE_ICONS.map(
           (name) => `
           <div class="flex flex-col items-center gap-2 p-4">
-            <i class="vi vi-${style} vi-${name} text-4xl text-white"></i>
+            <i class="vi vi-${style} vi-${name} ${args.size}" style="color: ${args.color};"></i>
             <span class="text-xs text-zinc-400 font-mono">vi-${style} vi-${name}</span>
           </div>
         `
