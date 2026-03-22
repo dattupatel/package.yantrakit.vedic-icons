@@ -9,7 +9,7 @@ const root = path.resolve(__dirname, '..');
 const fontsDir = path.resolve(root, 'dist/fonts');
 fs.mkdirSync(fontsDir, { recursive: true });
 
-const styles = ['solid', 'outlined', 'color'];
+const styles = ['solid', 'outlined'];
 
 for (const style of styles) {
   const inputDir = path.resolve(root, `src/icons/${style}`);
