@@ -4,6 +4,10 @@ const basePath = process.env.STORYBOOK_BASE || '/';
 
 const config: StorybookConfig = {
   stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
+  staticDirs: [
+    { from: '../../icons-svg', to: '/icons-svg' },
+    { from: '../src/icons', to: '/icons' },
+  ],
   addons: ['@storybook/addon-essentials'],
   framework: {
     name: '@storybook/html-vite',

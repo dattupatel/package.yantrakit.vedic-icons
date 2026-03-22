@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <path fill="currentColor" fill-rule="evenodd" d="M100,80h312v352h-312ZM128,108h256v296h-256Z"/>
+  <path fill="currentColor" d="M70,44h372v40h-372Z"/>
+  <path fill="currentColor" d="M70,428h372v40h-372Z"/>
+  <path fill="currentColor" d="M168,180h176v20h-176Z"/>
+  <path fill="currentColor" d="M168,240h176v20h-176Z"/>
+  <path fill="currentColor" d="M168,300h176v20h-176Z"/>
+</svg>

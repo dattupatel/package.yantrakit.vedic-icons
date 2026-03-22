@@ -7,7 +7,7 @@ const root = path.resolve(__dirname, '..');
 
 const utilitiesCss = fs.readFileSync(path.resolve(root, 'src/css/utilities.css'), 'utf-8');
 
-const styles = ['solid', 'outlined'];
+const styles = ['solid', 'outlined', 'color'];
 const allFontFaces = [];
 const allStyleBlocks = [];
 let totalIcons = 0;

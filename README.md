@@ -56,6 +56,10 @@ Size, color, rotation, and animation come from your own CSS framework (Tailwind,
 
 Found a bug or have a feature request? [Open an issue](https://github.com/dattupatel/package.yantrakit.vedic-icons/issues).
 
+## Credits
+
+Most icon designs in this library are sourced from [Flaticon.com](https://www.flaticon.com).
+
 ## License
 
 MIT
