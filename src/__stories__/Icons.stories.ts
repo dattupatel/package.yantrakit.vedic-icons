@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/html';
 import '../../dist/vedic-icons.css';
 
 const AVAILABLE_ICONS = ['agni-dev','ashoka-chakra','brahma','calendar-holi','calendar-pongol','calendar-swastika','chandra','coin','conch-shell','diya','durga','face-male-sikh','family-gathering','female','firecracker','firecracker-02','ganesha','golden-temple','granth-swastika','hand-holding-rupee','hanumaan','hanumaan-02','havan-fire','india-map','indian-flag','kalash-swastika','kali','kartikeya','konark-sun-temple','krishna','krishna-02','krishna-with-cow','kurma','lakshmi','lingam','lotus','male-sikh','male-sikh02','mandala','mandala-02','matsya','meenakshi-temple','namaste','narasimha','om','parvati','peacock','qutub-minar','radha','rama','rangoli','red-fort','saraswati','scroll','scroll-02','scroll-03','scroll-rolled','scroll-rolled02','shiva','trishul','tilak','sita','surya','taj-mahal','temple','vamana','varaha'];
-const AVAILABLE_STYLES = ['vi-solid', 'vi-outlined', 'vi-color'];
+const AVAILABLE_STYLES = ['vi-solid', 'vi-outlined'];
 
 interface iIconArgs {
   icon: string;
