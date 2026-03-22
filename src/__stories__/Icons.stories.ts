@@ -269,7 +269,7 @@ export const Workshop: iStory = {
     flip: { table: { disable: true } },
   },
   render: (args) => {
-    const current = { style: 'solid', name: 'hanumaan', file: 'Hanumaan - Solid.svg' };
+    const current = { style: 'outlined', name: 'varaha', file: 'Varaha - Outline.svg' };
 
     const spinClass = args.spin ? 'animate-spin' : '';
     const rotateStyle = args.rotate ? `transform: rotate(${args.rotate}deg);` : '';

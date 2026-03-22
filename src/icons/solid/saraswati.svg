@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <path fill="currentColor" d="M176,380a80,80,0,1,0,160,0a80,80,0,1,0,-160,0Z"/>
-  <path fill="currentColor" d="M240,140h32v170h-32Z"/>
-  <path fill="currentColor" d="M214,100a42,42,0,1,0,84,0a42,42,0,1,0,-84,0Z"/>
-  <path fill="currentColor" d="M218,42h14v58h-14Z"/>
-  <path fill="currentColor" d="M280,42h14v58h-14Z"/>
-  <path fill="currentColor" d="M196,458h120v24h-120Z"/>
-</svg>
