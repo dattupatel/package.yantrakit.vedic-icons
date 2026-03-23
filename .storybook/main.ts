@@ -1,7 +1,5 @@
 import type { StorybookConfig } from '@storybook/html-vite';
-
 const basePath = process.env.STORYBOOK_BASE || '/';
-
 const config: StorybookConfig = {
   stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: ['@storybook/addon-essentials'],
@@ -26,5 +24,4 @@ const config: StorybookConfig = {
     return `${head}<base href="${basePath}">`;
   },
 };
-
 export default config;
