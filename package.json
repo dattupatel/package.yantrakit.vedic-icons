@@ -1,6 +1,6 @@
 {
   "name": "@yantrakit/vedic-icons",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "A pure CSS, class-based icon library inspired by Indian art, culture, and sacred geometry",
   "main": "./dist/vedic-icons.css",
   "exports": {
