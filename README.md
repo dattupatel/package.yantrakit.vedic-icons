@@ -2,7 +2,7 @@
 
 A pure CSS, class-based icon library inspired by Indian art, culture, and sacred geometry.
 
-**[Documentation & Examples](https://vedic-icons.yantrakit.com)** | **[GitHub](https://github.com/dattupatel/package.yantrakit.vedic-icons)** | **[npm](https://www.npmjs.com/package/@yantrakit/vedic-icons)**
+**[Documentation & Examples](https://vedic-icons.yantrakit.com)** | **[GitHub](https://github.com/yantrakitinc/package.yantrakit.vedic-icons)** | **[npm](https://www.npmjs.com/package/@yantrakit/vedic-icons)**
 
 ## Installation
 
@@ -54,7 +54,7 @@ Size, color, rotation, and animation come from your own CSS framework (Tailwind,
 
 ## Contributing
 
-Found a bug or have a feature request? [Open an issue](https://github.com/dattupatel/package.yantrakit.vedic-icons/issues).
+Found a bug or have a feature request? [Open an issue](https://github.com/yantrakitinc/package.yantrakit.vedic-icons/issues).
 
 ## Credits
 

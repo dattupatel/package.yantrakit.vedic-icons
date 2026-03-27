@@ -1,6 +1,6 @@
 {
   "name": "@yantrakit/vedic-icons",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "A pure CSS, class-based icon library inspired by Indian art, culture, and sacred geometry",
   "main": "./dist/vedic-icons.css",
   "exports": {
@@ -55,10 +55,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dattupatel/package.yantrakit.vedic-icons.git"
+    "url": "git+https://github.com/yantrakitinc/package.yantrakit.vedic-icons.git"
   },
   "bugs": {
-    "url": "https://github.com/dattupatel/package.yantrakit.vedic-icons/issues"
+    "url": "https://github.com/yantrakitinc/package.yantrakit.vedic-icons/issues"
   },
   "homepage": "https://vedic-icons.yantrakit.com"
 }
