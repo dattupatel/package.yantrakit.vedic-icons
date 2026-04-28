@@ -20,7 +20,7 @@
     "test:run": "vitest run",
     "test:coverage": "vitest run --coverage",
     "prepublishOnly": "node scripts/prepublish-check.mjs && pnpm build",
-    "storybook": "storybook dev -p 21470",
+    "storybook": "storybook dev -p 61472",
     "build-storybook": "STORYBOOK_BASE=/storybook/ storybook build -o storybook-static"
   },
   "devDependencies": {
