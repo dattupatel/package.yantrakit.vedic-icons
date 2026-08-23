@@ -4,6 +4,33 @@ All notable changes to this project will be documented here.
 
 ---
 
+## [0.2.12] - 2026-08-23
+
+### Removed
+
+**Six icons shipped in 0.2.11 that do not render as glyphs.** Each was checked on the live site,
+not inferred: `gyan-mudra`, `mudra`, `naan`, `turban`, `zodiac-wheel`, `dhoti`.
+
+Two causes:
+
+- **Four use `clipPath`.** `cleanSvg` strips `id="…"`, which silently breaks every
+  `clip-path="url(#…)"` reference — the clip is lost, the full shapes render, and the glyph becomes
+  a filled square with the artwork knocked out of it. `gyan-mudra`, `mudra`, `naan` and `turban`.
+- **Two are the wrong kind of artwork.** `zodiac-wheel` is 46 paths of fine detail that collapse
+  into a speckled disc at icon size; `dhoti` reads as an angular block.
+
+### Fixed — `process-icons.mjs`
+
+- **It now refuses any source using `clipPath` or `<mask>`.** A font glyph is one flat filled
+  outline; clipping cannot survive the conversion even with the ids intact. Refusing beats
+  producing something that looks correct in a browser and wrong in the font.
+- **`zodiac-wheel` and `dhoti` are on a `withdrawn` list**, so a re-run cannot quietly bring them
+  back. Returning either means new artwork, not a re-run.
+
+161 icons.
+
+---
+
 ## [0.2.11] - 2026-08-23
 
 ### Added
