@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;">
+<g>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="&#10;&#9;&#9;M377.613,435.378c-10.187-2.103-18.376-9.662-21.273-19.653C345.404,378.01,320,281.615,320,200c0-44,0-185,0-185H160&#10;&#9;&#9;c0,0,0,117,0,169c0,32-48,56-48,96c0,72,93.157,58.315,120,112c40,80,64,105,120,105c13.073,0,23.476-2.837,31.208-6.194&#10;&#9;&#9;C393.429,486.37,400,476.246,400,465.104v-2.244C400,449.549,390.649,438.069,377.613,435.378L377.613,435.378z"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="&#10;&#9;&#9;M320,88c0,0-42.793,24-80,24s-80-24-80-24"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="&#10;&#9;&#9;M320,136c0,0-40,64-80,64s-80-64-80-64"/>
+		<ellipse style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" cx="240" cy="236" rx="32" ry="36"/>
+</g>
+</svg>
