@@ -10,7 +10,12 @@ const utilitiesCss = fs.readFileSync(path.resolve(root, 'src/css/utilities.css')
 const styles = ['solid', 'outlined'];
 const allFontFaces = [];
 const allStyleBlocks = [];
-let totalIcons = 0;
+// Counted separately on purpose. A style variant is a GLYPH; an icon is a name that may exist in
+// one style or both. Summing glyphs and calling the total "icons" is what this used to do, and it
+// was read as an icon count and acted on — see #29.
+let totalGlyphs = 0;
+const perStyle = {};
+const distinctIcons = new Set();
 
 for (const style of styles) {
   const glyphsPath = path.resolve(root, `dist/vedic-icons-${style}-glyphs.css`);
@@ -30,7 +35,9 @@ for (const style of styles) {
     iconRules.push({ className: match[1], content: match[2] });
   }
 
-  totalIcons += iconRules.length;
+  totalGlyphs += iconRules.length;
+  perStyle[style] = iconRules.length;
+  for (const rule of iconRules) distinctIcons.add(rule.className);
 
   // Style-specific block: .vi-solid .vi-diya::before or .vi-solid.vi-diya::before
   allStyleBlocks.push(`/* ${style} style */`);
@@ -69,4 +76,23 @@ const output = lines.join('\n');
 
 fs.writeFileSync(path.resolve(root, 'dist/vedic-icons.css'), output);
 
-console.log(`Combined CSS generated with ${totalIcons} icons across ${styles.length} styles.`);
+// Zero examined is a failure, never a pass. Without this, a missing glyph file makes the loop above
+// `continue` for every style and the script writes a 369-byte stylesheet containing no icons at all
+// — exits 0, prints a cheerful count of nothing, and the defect surfaces in a consumer's browser as
+// missing glyphs. It fooled me while fixing #29, which is how it was found.
+if (distinctIcons.size === 0) {
+  console.error(
+    'x build-css: no glyph files found in dist/. Run build-font first. Refusing to write an empty stylesheet.',
+  );
+  process.exit(1);
+}
+
+const breakdown = styles
+  .filter((style) => perStyle[style] !== undefined)
+  .map((style) => `${style} ${perStyle[style]}`)
+  .join(', ');
+
+console.log(
+  `Combined CSS generated — ${distinctIcons.size} icons, ` +
+    `${totalGlyphs} glyphs across ${Object.keys(perStyle).length} styles (${breakdown}).`,
+);
