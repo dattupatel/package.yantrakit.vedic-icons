@@ -4,6 +4,60 @@ All notable changes to this project will be documented here.
 
 ---
 
+## [0.4.2] - 2026-08-24
+
+Naming pass. No artwork changed; no icon was added or removed.
+
+### Changed — names
+
+Misspellings and wrong words, corrected:
+
+| was | now | why |
+|---|---|---|
+| `stoop` | `stupa` | "stoop" is an English word for a porch |
+| `pataka`, `pataka-02`, `pataka-03`, `rocket-pataka` | `patakha`, `patakha-02`, `patakha-03`, `rocket-patakha` | *pataka* is a flag; *patakha* is a firecracker |
+| `thunderbolt` | `vajra` | the artwork is a vajra |
+| `turmeric` | `haldi` | Hindi name, per the set's convention |
+| `parliament` | `sansad` | as above |
+| `note` | `rupaya-note` | as above |
+| `trident-02` | `trishool-02` | the set already calls this weapon trishool |
+| `gateway` | `gateway-of-india` | the bare word read as a generic arch |
+| `haath-rupaya` | `rupaya-len-den` | the artwork is a transaction, not a hand holding money |
+| `pads` | `cricket-pads` | cricket icons carry their English name |
+
+Spelling collisions merged — these were the same word spelt two ways on different artwork:
+
+`kubera` and `kubera-02` become `kuber-02` and `kuber-03`; `laddu` becomes `laddoo-02` and
+`ladoo-katori` becomes `laddoo-katori`; `saap` becomes `saanp-02`; `hanuman-02` becomes
+`hanumaan-03`.
+
+The five scrolls join the existing Hindi `patra` family: `scroll-02`, `scroll-03`,
+`scroll-rolled`, `scroll-rolled02` and `scroll-quill` become `patra-02` to `patra-05` and
+`patra-kalam`. `pagdi-02` becomes `pagdi`, since no base `pagdi` existed.
+
+All of the above keep their old name as an alias, so existing markup keeps working.
+
+### Changed — names that pointed at the wrong subject
+
+For these the old name described something the artwork is not, so it was **dropped rather than
+kept as an alias** — searching for it should not return the wrong thing.
+
+`garuda` to `devta` (a crowned figure with no wings or beak), `nataraja` to `devta-02` (a seated
+figure, not the dancing form in a ring of fire), `sapta-matrika` to `devi-02` (one goddess, not
+seven), `phuljhadi` to `chamak` (loose sparkles, no sparkler), `sarod` to `taar-vaadya` (an
+f-holed waisted body, not a sarod), `diwali-diye` to `mombatti` (pillar candles, not clay lamps),
+and `ashoka` to `ashokasundari` (the artwork is Ashokasundari).
+
+### Known defects, shipped deliberately
+
+Six icons ship with defects that cannot be repaired without redrawing: `red-fort`, `sanskrit`,
+`india-gate-dilli` and `swastik-granth` have outline paths that never close (broken in the upstream
+files); `brahmin`'s two variants are byte-identical; `baagh-02` has no solid.
+
+451 icons, 890 glyphs (solid 440, outlined 450).
+
+---
+
 ## [0.4.1] - 2026-08-24
 
 Every icon was reviewed individually, comparing each built glyph against its own source.
