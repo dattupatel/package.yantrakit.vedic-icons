@@ -378,8 +378,30 @@ export const aliases: Record<string, iIconName> = {
 /** Every alias name. */
 export const aliasNames = Object.keys(aliases) as readonly string[];
 
-/** Resolve an icon name or Hindi alias to the canonical icon name. */
-export function resolveIcon(name: string): iIconName | undefined {
+/** Canonical icon name for any icon name or Hindi alias. */
+export function canonicalIcon(name: string): iIconName | undefined {
   if ((icons as readonly string[]).includes(name)) return name as iIconName;
   return aliases[name];
+}
+
+/** Canonical icon name -> its Hindi name, for the icons that have one. */
+export const hindiNames: Record<string, string> = Object.entries(aliases).reduce(
+  (acc, [alias, canonical]) => {
+    // First alias wins: the map is written alphabetically by alias, and an icon with several
+    // Hindi forms (bail/nandi) should resolve to one stable name, not whichever came last.
+    if (!acc[canonical]) acc[canonical] = alias;
+    return acc;
+  },
+  {} as Record<string, string>
+);
+
+/**
+ * Resolve any icon name or alias to its Hindi name.
+ * Falls back to the canonical name for icons that have no distinct Hindi form —
+ * `biryani` is already Hindi, so there is nothing to resolve to.
+ */
+export function resolveIcon(name: string): string | undefined {
+  const canonical = canonicalIcon(name);
+  if (!canonical) return undefined;
+  return hindiNames[canonical] ?? canonical;
 }

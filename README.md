@@ -62,9 +62,11 @@ Most icons also answer to a Hindi name. `vi-baagh` and `vi-tiger` render the sam
 ```
 
 ```js
-import { resolveIcon } from '@yantrakit/vedic-icons';
+import { resolveIcon, canonicalIcon } from '@yantrakit/vedic-icons';
 
-resolveIcon('baagh'); // 'tiger'
+resolveIcon('tiger');    // 'baagh'   — the Hindi name
+resolveIcon('biryani');  // 'biryani' — already Hindi
+canonicalIcon('baagh');  // 'tiger'
 ```
 
 ## Contributing

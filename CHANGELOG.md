@@ -4,6 +4,27 @@ All notable changes to this project will be documented here.
 
 ---
 
+## [0.4.0] - 2026-08-24
+
+### Changed — `resolveIcon` now returns the Hindi name
+
+`resolveIcon('tiger')` returns `'baagh'`. It falls back to the canonical name for icons with no
+distinct Hindi form, so `resolveIcon('biryani')` is `'biryani'`.
+
+This reverses 0.3.x, where `resolveIcon` normalised toward the English name. **Breaking** for
+anyone calling it — use `canonicalIcon()` for the old behaviour.
+
+### Added
+
+- `canonicalIcon(name)` — any name or alias to the canonical icon name.
+- `hindiNames` — canonical name to Hindi name, for the 307 icons that have one. Where an icon has
+  several Hindi forms the first alphabetically wins, so the result is stable rather than
+  whichever entry happened to be last.
+
+453 icons.
+
+---
+
 ## [0.3.1] - 2026-08-24
 
 ### Removed
