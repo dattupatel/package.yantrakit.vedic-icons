@@ -1,23 +1,23 @@
 <svg
    viewBox="0 0 682.66669 682.66669"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><g
+   xmlns:svg="http://www.w3.org/2000/svg"><defs /><g
      transform="matrix(1.3333333,0,0,-1.3333333,0,682.66667)"><g><g><g
            transform="translate(361,405)"><path fill="currentColor"
-             d="M 0,0 C 0,30.295 -22.458,55.332 -51.63,59.406 -61.587,78.756 -81.741,92 -105,92 -128.259,92 -148.413,78.756 -158.37,59.406 -187.542,55.332 -210,30.295 -210,0"
-             style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g><g
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+             d="m -225,0 c 0,35.149733 24.41657,64.847794 57.26367,72.84375 C -154.33694,93.370857 -131.21731,107 -105,107 -78.782695,107 -55.663057,93.370857 -42.263672,72.84375 -9.4165731,64.847794 15,35.149733 15,0 h -30 c 0,22.881896 -16.826101,41.495285 -38.705078,44.550781 l -7.703125,1.076172 -3.558594,6.916016 C -72.429984,67.046602 -87.43514,77 -105,77 c -17.56486,0 -32.57002,-9.953398 -40.0332,-24.457031 l -3.5586,-6.916016 -7.70312,-1.076172 C -178.1739,41.495285 -195,22.881896 -195,0 Z" /></g><g
            transform="translate(45,315)"><path fill="currentColor"
-             d="M 0,0 H 181"
-             style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g><g
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+             d="M 0,-15 V 15 H 181 V -15 Z" /></g><g
            transform="translate(286,405)"><path fill="currentColor"
-             d="m 0,0 v -90 c 0,-16.568 -13.432,-30 -30,-30 -16.568,0 -30,13.432 -30,30 V 0 H -241 V -270 H 181 V 0 Z"
-             style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g><g
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+             d="M -256,-285 V 15 H -45 V -90 c 0,-8.460805 6.539195,-15 15,-15 8.460805,0 15,6.539195 15,15 V 15 h 211 v -300 z m 30,30 H 166 V -15 H 15 v -75 c 0,-24.67519 -20.3248054,-45 -45,-45 -24.675195,0 -45,20.32481 -45,45 v 75 h -151 z" /></g><g
            transform="translate(286,315)"><path fill="currentColor"
-             d="M 0,0 H 181"
-             style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g><g
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+             d="M 0,-15 V 15 H 181 V -15 Z" /></g><g
            transform="translate(467,225)"><path fill="currentColor"
-             d="M 0,0 H -422"
-             style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g><g
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+             d="M -422,-15 V 15 H 0 v -30 z" /></g><g
            transform="translate(75,15)"><path fill="currentColor"
-             d="m 0,0 h 362 c 33,0 60,27 60,60 H -60 C -60,27 -33,0 0,0 Z"
-             style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g></g></g></g></svg>
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+             d="m 0,-15 c -41.181818,0 -75,33.818182 -75,75 V 75 H 437 V 60 c 0,-41.181818 -33.81818,-75 -75,-75 z m 0,30 h 362 c 19.53286,0 36.0259,12.576223 42.23633,30 H -42.236328 C -36.0259,27.576223 -19.532856,15 0,15 Z" /></g></g></g></g></svg>

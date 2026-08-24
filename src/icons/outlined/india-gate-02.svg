@@ -1,37 +1,37 @@
 <svg
    viewBox="0 0 682.66669 682.66669"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><g
+   xmlns:svg="http://www.w3.org/2000/svg"><defs /><g
      transform="matrix(1.3333333,0,0,-1.3333333,0,682.66667)"><g><g><path fill="currentColor"
-           d="M 467,15 H 45 v 402 h 422 z"
-           style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /><g
+           style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+           d="M 30,0 V 432 H 482 V 0 Z M 60,30 H 452 V 402 H 60 Z" /><g
            transform="translate(185.6665,15)"><path fill="currentColor"
-             d="M 0,0 V 191.667 C 0,230.511 31.489,262 70.333,262 c 38.845,0 70.334,-31.489 70.334,-70.333 V 0"
-             style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g><g
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+             d="M -15,0 V 191.66797 C -15,238.6185 23.381503,277 70.332031,277 117.28335,277 155.66797,238.6185 155.66797,191.66797 V 0 h -30 V 191.66797 C 125.66797,222.40544 101.07071,247 70.332031,247 39.59456,247 15,222.40544 15,191.66797 V 0 Z" /></g><g
            transform="translate(512,337)"><path fill="currentColor"
-             d="M 0,0 H -512"
-             style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g><g
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+             d="M -512,-15 V 15 H 0 v -30 z" /></g><g
            transform="translate(75,417)"><path fill="currentColor"
-             d="M 0,0 V 80 H 362 V 0"
-             style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g><g
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+             d="M -15,0 V 95 H 377 V 0 H 347 V 65 H 15 V 0 Z" /></g><g
            transform="translate(185.6665,157)"><path fill="currentColor"
-             d="M 0,0 H -140.667"
-             style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g><g
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+             d="M -140.66797,-15 V 15 H 0 v -30 z" /></g><g
            transform="translate(467,157)"><path fill="currentColor"
-             d="M 0,0 H -140.667"
-             style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g><g
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+             d="M -140.66797,-15 V 15 H 0 v -30 z" /></g><g
            transform="translate(186.4243,217)"><path fill="currentColor"
-             d="M 0,0 H -141.424"
-             style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g><g
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+             d="M -141.42383,-15 V 15 H 0 v -30 z" /></g><g
            transform="translate(130.3335,277)"><path fill="currentColor"
-             d="M 0,0 H -30"
-             style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g><g
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+             d="M -30,-15 V 15 H 0 v -30 z" /></g><g
            transform="translate(411.6665,277)"><path fill="currentColor"
-             d="M 0,0 H -30"
-             style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g><g
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+             d="M -30,-15 V 15 H 0 v -30 z" /></g><g
            transform="translate(467,217)"><path fill="currentColor"
-             d="M 0,0 H -141.422"
-             style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g><g
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+             d="M -141.42187,-15 V 15 H 0 v -30 z" /></g><g
            transform="translate(256,277)"><path fill="currentColor"
-             d="M 0,0 V 60"
-             style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g></g></g></g></svg>
+             style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+             d="M -15,0 V 60 H 15 V 0 Z" /></g></g></g></g></svg>
