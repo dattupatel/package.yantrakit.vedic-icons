@@ -1,0 +1,52 @@
+<svg
+   x="0px"
+   y="0px"
+   viewBox="0 0 512 512"
+   style="enable-background:new 0 0 512 512;"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs />
+<g>
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 286,270 v 30 h 30 v -30 z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 196,270 v 30 h 30 v -30 z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 121,225 c -24.675102,0 -45,20.3249 -45,45 0,24.6751 20.324898,45 45,45 h 30 v -30 h -30 c -8.4629,0 -15,-6.5371 -15,-15 0,-8.4629 6.5371,-15 15,-15 h 30 v -30 z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 361,225 v 30 h 30 c 8.4629,0 15,6.5371 15,15 0,8.4629 -6.5371,15 -15,15 h -30 v 30 h 30 c 24.6751,0 45,-20.3249 45,-45 0,-24.6751 -20.3249,-45 -45,-45 z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 136,390 c -41.243648,0 -75,33.75635 -75,75 v 47 h 390 v -47 c 0,-41.24365 -33.75635,-75 -75,-75 z m 0,30 h 240 c 25.03035,0 45,19.96965 45,45 v 17 H 91 v -17 c 0,-25.03035 19.96965,-45 45,-45 z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 199.54102,195 c -26.20594,0 -50.2373,14.85155 -61.95704,38.29102 l 26.83204,13.41796 C 171.08228,233.37645 184.63495,225 199.54102,225 h 112.91796 c 14.90607,0 28.45874,8.37645 35.125,21.70898 l 26.83204,-13.41796 C 362.69628,209.85155 338.66492,195 312.45898,195 Z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 256,90 c -66.09657,0 -120,53.90343 -120,120 v 90 c 0,66.09657 53.90343,120 120,120 66.09657,0 120,-53.90343 120,-120 V 210 C 376,143.90343 322.09657,90 256,90 Z m 0,30 c 49.88343,0 90,40.11657 90,90 v 90 c 0,49.88343 -40.11657,90 -90,90 -49.88343,0 -90,-40.11657 -90,-90 v -90 c 0,-49.88343 40.11657,-90 90,-90 z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 241,165 v 90 h 30 v -90 z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 241,60 v 45 h 30 V 60 Z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="M 256,0 C 114.79245,0 0,114.79245 0,256 0,327.94698 29.782833,393.12896 77.650391,439.62891 L 98.554687,418.10937 C 56.260245,377.02332 30,319.68302 30,256 30,131.00555 131.00555,30 256,30 c 124.99445,0 226,101.00555 226,226 0,63.68302 -26.25932,121.02333 -68.55469,162.10937 l 20.9043,21.51954 C 482.21824,393.12895 512,327.94698 512,256 512,114.79245 397.20755,0 256,0 Z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 121,405 v 92 h 30 v -92 z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 181,405 v 92 h 30 v -92 z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 361,405 v 92 h 30 v -92 z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 301,405 v 92 h 30 v -92 z" />
+</g>
+</svg>

@@ -4,6 +4,213 @@ All notable changes to this project will be documented here.
 
 ---
 
+## [0.4.2] - 2026-08-24
+
+Naming pass. No artwork changed; no icon was added or removed.
+
+### Changed — names
+
+Misspellings and wrong words, corrected:
+
+| was | now | why |
+|---|---|---|
+| `stoop` | `stupa` | "stoop" is an English word for a porch |
+| `pataka`, `pataka-02`, `pataka-03`, `rocket-pataka` | `patakha`, `patakha-02`, `patakha-03`, `rocket-patakha` | *pataka* is a flag; *patakha* is a firecracker |
+| `thunderbolt` | `vajra` | the artwork is a vajra |
+| `turmeric` | `haldi` | Hindi name, per the set's convention |
+| `parliament` | `sansad` | as above |
+| `note` | `rupaya-note` | as above |
+| `trident-02` | `trishool-02` | the set already calls this weapon trishool |
+| `gateway` | `gateway-of-india` | the bare word read as a generic arch |
+| `haath-rupaya` | `rupaya-len-den` | the artwork is a transaction, not a hand holding money |
+| `pads` | `cricket-pads` | cricket icons carry their English name |
+
+Spelling collisions merged — these were the same word spelt two ways on different artwork:
+
+`kubera` and `kubera-02` become `kuber-02` and `kuber-03`; `laddu` becomes `laddoo-02` and
+`ladoo-katori` becomes `laddoo-katori`; `saap` becomes `saanp-02`; `hanuman-02` becomes
+`hanumaan-03`.
+
+The five scrolls join the existing Hindi `patra` family: `scroll-02`, `scroll-03`,
+`scroll-rolled`, `scroll-rolled02` and `scroll-quill` become `patra-02` to `patra-05` and
+`patra-kalam`. `pagdi-02` becomes `pagdi`, since no base `pagdi` existed.
+
+All of the above keep their old name as an alias, so existing markup keeps working.
+
+### Changed — names that pointed at the wrong subject
+
+For these the old name described something the artwork is not, so it was **dropped rather than
+kept as an alias** — searching for it should not return the wrong thing.
+
+`garuda` to `devta` (a crowned figure with no wings or beak), `nataraja` to `devta-02` (a seated
+figure, not the dancing form in a ring of fire), `sapta-matrika` to `devi-02` (one goddess, not
+seven), `phuljhadi` to `chamak` (loose sparkles, no sparkler), `sarod` to `taar-vaadya` (an
+f-holed waisted body, not a sarod), `diwali-diye` to `mombatti` (pillar candles, not clay lamps),
+and `ashoka` to `ashokasundari` (the artwork is Ashokasundari).
+
+### Known defects, shipped deliberately
+
+Six icons ship with defects that cannot be repaired without redrawing: `red-fort`, `sanskrit`,
+`india-gate-dilli` and `swastik-granth` have outline paths that never close (broken in the upstream
+files); `brahmin`'s two variants are byte-identical; `baagh-02` has no solid.
+
+451 icons, 890 glyphs (solid 440, outlined 450).
+
+---
+
+## [0.4.1] - 2026-08-24
+
+Every icon was reviewed individually, comparing each built glyph against its own source.
+
+### Removed — six icons, one variant
+
+`khanda` (the artwork is a shepherd's crook, not the Sikh sword emblem) and `krishna-with-cow`
+(broken source: viewBox 64 on artwork spanning ~895, so it rendered as a magnified crop).
+
+`gyan-mudra`, `mudra`, `naan` and `turban` were withdrawn from the icon list back in 0.2.12, but
+their sources were left behind, so the font kept building glyphs and the CSS kept emitting classes
+the package never listed. Those classes are now gone too.
+
+`gadaa` loses its solid variant — the file was a second outline drawing, not a fill. It ships
+outline-only rather than shipping a fake solid.
+
+**Breaking** only if you referenced one of those classes directly.
+
+### Changed — names
+
+Cricket icons now take their English name, with the Hindi as alias: `cricket-bat`, `cricket-ball`,
+`cricket-gloves`, `cricket-umpire`, `cricketer`, `cricket-stadium`, `cricket-cap`.
+
+Also renamed: `bhikshu` to `sadhu`, `bhonpu` to `speakers`, `bow-arrow` to `dhanush-baan`,
+`chandra-devta` to `chandra`, `matsya` to `matsya-avatar`, `nimantran` to `nimantran-patra`, and
+`bansuri` to `shahnai-02` (the artwork is a bulbed horn, not a side-blown flute).
+
+Every previous name is kept as an alias, so none of these break existing markup.
+
+### Fixed
+
+Element-level `transform` attributes were mishandled in conversion and put a spurious filled wedge
+through `patra`. All 99 affected variants had their transforms baked into path data, each gated on
+rendering pixel-identical to its original; no source carries a transform now.
+
+Seven outline/solid pairs were swapped, because the source pack labels its lineal file "Solid":
+`humayun-ka-maqbara`, `jaisalmer`, `jama-masjid`, `pangong-jheel`, `jantar-mantar`,
+`pichola-jheel`, `rashtrapati-bhawan`.
+
+`ghee` no longer has the Latin word GHEE drawn into it; the label band is now a glass section with
+a highlight.
+
+451 icons, 890 glyphs (solid 440, outlined 450).
+
+---
+
+## [0.4.0] - 2026-08-24
+
+### Changed — `resolveIcon` now returns the Hindi name
+
+`resolveIcon('tiger')` returns `'baagh'`. It falls back to the canonical name for icons with no
+distinct Hindi form, so `resolveIcon('biryani')` is `'biryani'`.
+
+This reverses 0.3.x, where `resolveIcon` normalised toward the English name. **Breaking** for
+anyone calling it — use `canonicalIcon()` for the old behaviour.
+
+### Added
+
+- `canonicalIcon(name)` — any name or alias to the canonical icon name.
+- `hindiNames` — canonical name to Hindi name, for the 307 icons that have one. Where an icon has
+  several Hindi forms the first alphabetically wins, so the result is stable rather than
+  whichever entry happened to be last.
+
+453 icons.
+
+---
+
+## [0.3.1] - 2026-08-24
+
+### Removed
+
+`categories`, `categoryNames`, `iIconCategory` and `getCategory()`. Categories are for the
+documentation site, not the package — they shipped in 0.3.0 by mistake. Category data lives in
+the site's own `icons.ts`.
+
+### Changed
+
+README trimmed to usage. The design rationale behind aliases belongs in the changelog, not in
+what a consumer reads.
+
+453 icons.
+
+---
+
+## [0.3.0] - 2026-08-23
+
+### Added — 292 icons, taking the library from 161 to 453
+
+Sourced as **pack pairs** (an outline pack and its matching fill pack) rather than icon by icon,
+so every addition arrives with both variants already matched. Each pair was checked before it was
+kept: filenames aligned by index — never by slug, because slugs repeat within a pack and would
+mispair — then colour purity, then a rendered outline-beside-fill sheet reviewed by eye.
+
+The largest single addition is the **complete Devanagari varnamala**, 62 glyphs: every vowel and
+consonant including the nukta forms क़ ख़ ग़ ड़ ढ़ फ़ य़ and ळ ऴ ऱ ष ॠ ऌ. Also added: Indian
+monuments and landscapes (Ganges, Pangong Tso, Lake Pichola, Jaisalmer Fort, Humayun's Tomb, Jama
+Masjid, Jantar Mantar, Rashtrapati Bhavan), Indian food and spices, instruments, and cricket.
+
+### Added — Hindi aliases (346 of them)
+
+`vi-baagh` and `vi-tiger` render the same glyph. An alias is a second CSS class rule pointing at
+the same codepoint, so it costs nothing in the font.
+
+```html
+<i class="vi vi-solid vi-baagh"></i>   <!-- identical to vi-tiger -->
+```
+
+Aliases are **additive — no published class name changed.** An alias exists only where the Hindi
+name genuinely differs; an icon already called `biryani` gets none, because a second identical
+name is noise. Three rules are enforced at build time:
+
+- an alias may never **shadow a real icon** — `ladoo`, `thali`, `dhanush` and `toran` are icons in
+  their own right, so they are not aliases of anything;
+- **no alias is claimed by two icons** — `gaay` and `naag` both collided during authoring and were
+  given to the longer-published icon;
+- `build-css.mjs` **throws if aliases are defined but none are emitted**, and warns per alias that
+  points at an icon with no glyph. A silent zero would ship a stylesheet where every `vi-baagh`
+  renders nothing.
+
+New exports: `aliases`, `aliasNames`, `resolveIcon()`.
+
+### Added — categories (12)
+
+Every icon now carries a category, so a full icon list can be rendered grouped instead of as one
+undifferentiated grid. Carried on the website's `icons.ts`. (0.3.0 also exported these from the
+package; that was a mistake and is reverted in 0.3.1.)
+
+Categories: Deities · Sacred Symbols · Devanagari Script · Temples & Architecture · Landscapes ·
+Festivals & Rituals · Food & Drink · Music & Dance · People & Attire · Ritual & Everyday Objects ·
+Nature & Animals · Cricket.
+
+### Fixed
+
+- **45 incoming icons carried a `clipPath`** that `process-icons.mjs` correctly refuses. They were
+  Inkscape no-ops — `M 0,512 H 512 V 0 H 0 Z`, a full-canvas rectangle clipping nothing. Stripped
+  at source, each one verified lossless by re-rendering before and after: **max pixel difference 2
+  across all 45.** No icon was added under a clip the font could not represent.
+- **12 files used `fill="rgb(0,0,0)"` or a masked `white`**, neither of which `cleanSvg` converts.
+  They would have rendered hard black and ignored `currentColor` in every theme. Normalised to
+  `#000000`, same lossless check.
+- **`@types/node` was missing**, so `pnpm typecheck` failed on `build.test.ts` with
+  `Cannot find module 'fs'`. Added; typecheck is clean.
+
+### Note
+
+`gyan-mudra`, `mudra`, `naan`, `turban`, `zodiac-wheel` and `dhoti` remain withdrawn, as in 0.2.12.
+Stale glyph files for four of them exist under `src/icons/` and are excluded by name, not by
+their presence on disk.
+
+453 icons.
+
+---
+
 ## [0.2.12] - 2026-08-23
 
 ### Removed

@@ -1,0 +1,55 @@
+<svg
+   x="0px"
+   y="0px"
+   viewBox="0 0 512 512"
+   style="enable-background:new 0 0 512 512;"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs />
+<g>
+		<path fill="currentColor"
+   style="baseline-shift:baseline;clip-rule:evenodd;display:inline;overflow:visible;vector-effect:none;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="M 53.095703,0.88671875 A 15.0015,15.0015 0 0 0 45.382812,6.9472656 L 2.3828125,73.832031 A 15,15 0 0 0 6.8886719,94.560547 15,15 0 0 0 27.617187,90.054687 L 58,42.796875 88.382812,90.054687 a 15,15 0 0 0 20.728518,4.50586 15,15 0 0 0 4.50586,-20.728516 L 70.617187,6.9472656 A 15.0015,15.0015 0 0 0 53.095703,0.88671875 Z" />
+		<path fill="currentColor"
+   style="baseline-shift:baseline;clip-rule:evenodd;display:inline;overflow:visible;vector-effect:none;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 14.294922,414.95898 a 15,15 0 0 0 -7.3964845,2.36133 15,15 0 0 0 -4.5214844,20.72461 l 42.9999999,66.99805 a 15.0015,15.0015 0 0 0 25.246094,0 l 43.000003,-66.99805 a 15,15 0 0 0 -4.52149,-20.72461 15,15 0 0 0 -20.724607,4.52149 L 58,469.16992 27.623047,421.8418 a 15,15 0 0 0 -13.328125,-6.88282 z" />
+		<path fill="currentColor"
+   style="baseline-shift:baseline;clip-rule:evenodd;display:inline;overflow:visible;vector-effect:none;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 15.035156,61.943359 a 15.0015,15.0015 0 0 0 -14.99999975,15 V 434.94336 a 15.0015,15.0015 0 0 0 14.99999975,15 h 85.929684 a 15.0015,15.0015 0 0 0 15,-15 V 76.943359 a 15.0015,15.0015 0 0 0 -15,-15 z m 15,30 H 85.964844 V 419.94336 H 30.035156 Z" />
+		<path fill="currentColor"
+   style="baseline-shift:baseline;clip-rule:evenodd;display:inline;overflow:visible;vector-effect:none;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 101.09375,121.94336 a 15.0015,15.0015 0 0 0 -15,15 v 238 a 15.0015,15.0015 0 0 0 15,15 h 55.5293 a 15.0015,15.0015 0 0 0 13.48242,-10.11914 l 12.63867,7.85742 a 15.0015,15.0015 0 0 0 7.91992,2.26172 h 74.82031 A 15.0015,15.0015 0 0 0 271.3457,388.75 l 27.22071,-11.55664 2.375,4.61523 a 15.0015,15.0015 0 0 0 13.33593,8.13477 h 96.62891 a 15.0015,15.0015 0 0 0 15,-15 v -238 a 15.0015,15.0015 0 0 0 -15,-15 H 220.17187 a 15.0015,15.0015 0 0 0 -7.15039,1.81445 l -23.32617,12.64844 -3.16797,-6.24609 a 15.0015,15.0015 0 0 0 -13.3789,-8.2168 z m 15,30 h 47.8418 l 5.97461,11.7832 a 15.0015,15.0015 0 0 0 20.52929,6.40235 l 33.53711,-18.18555 h 171.92969 v 208 h -72.47852 l -4.5625,-8.86524 a 15.0015,15.0015 0 0 0 -19.19921,-6.94335 l -37.23438,15.80859 h -67.48437 l -26.92188,-16.73828 a 15.0015,15.0015 0 0 0 -22.67383,10.0332 l -1.22851,6.70508 h -28.0293 z" />
+		<path fill="currentColor"
+   style="baseline-shift:baseline;clip-rule:evenodd;display:inline;overflow:visible;vector-effect:none;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 161,204.94336 a 15,15 0 0 0 -15,15 15,15 0 0 0 15,15 h 65.49219 a 15,15 0 0 0 15,-15 15,15 0 0 0 -15,-15 z" />
+		<path fill="currentColor"
+   style="baseline-shift:baseline;clip-rule:evenodd;display:inline;overflow:visible;vector-effect:none;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 285.99805,204.94336 a 15,15 0 0 0 -15,15 15,15 0 0 0 15,15 H 351 a 15,15 0 0 0 15,-15 15,15 0 0 0 -15,-15 z" />
+		<path fill="currentColor"
+   style="baseline-shift:baseline;clip-rule:evenodd;display:inline;overflow:visible;vector-effect:none;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 161,264.94336 a 15,15 0 0 0 -15,15 15,15 0 0 0 15,15 h 110.00195 a 15,15 0 0 0 15,-15 15,15 0 0 0 -15,-15 z" />
+		<path fill="currentColor"
+   style="baseline-shift:baseline;clip-rule:evenodd;display:inline;overflow:visible;vector-effect:none;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 331.00781,264.94336 a 15,15 0 0 0 -15,15 15,15 0 0 0 15,15 H 351 a 15,15 0 0 0 15,-15 15,15 0 0 0 -15,-15 z" />
+		<path fill="currentColor"
+   style="baseline-shift:baseline;clip-rule:evenodd;display:inline;overflow:visible;vector-effect:none;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 449.0957,0.88671875 a 15.0015,15.0015 0 0 0 -7.71289,6.06054685 l -43,66.8847654 a 15,15 0 0 0 4.50586,20.728516 15,15 0 0 0 20.72852,-4.50586 L 454,42.796875 484.38281,90.054687 a 15,15 0 0 0 20.72852,4.50586 15,15 0 0 0 4.50586,-20.728516 l -43,-66.8847654 A 15.0015,15.0015 0 0 0 449.0957,0.88671875 Z" />
+		<path fill="currentColor"
+   style="baseline-shift:baseline;clip-rule:evenodd;display:inline;overflow:visible;vector-effect:none;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 410.29492,414.95898 a 15,15 0 0 0 -7.39648,2.36133 15,15 0 0 0 -4.52149,20.72461 l 43,66.99805 a 15.0015,15.0015 0 0 0 25.2461,0 l 43,-66.99805 a 15,15 0 0 0 -4.52149,-20.72461 15,15 0 0 0 -20.72461,4.52149 L 454,469.16992 423.62305,421.8418 a 15,15 0 0 0 -13.32813,-6.88282 z" />
+		<path fill="currentColor"
+   style="baseline-shift:baseline;clip-rule:evenodd;display:inline;overflow:visible;vector-effect:none;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 411.03516,61.943359 a 15.0015,15.0015 0 0 0 -15,15 V 434.94336 a 15.0015,15.0015 0 0 0 15,15 h 85.92968 a 15.0015,15.0015 0 0 0 15,-15 V 76.943359 a 15.0015,15.0015 0 0 0 -15,-15 z m 15,30 h 55.92968 V 419.94336 h -55.92968 z" />
+		<path fill="currentColor"
+   style="baseline-shift:baseline;clip-rule:evenodd;display:inline;overflow:visible;vector-effect:none;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 26,121.94336 a 15,15 0 0 0 -15,15 15,15 0 0 0 15,15 h 94 a 15,15 0 0 0 15,-15 15,15 0 0 0 -15,-15 z" />
+		<path fill="currentColor"
+   style="baseline-shift:baseline;clip-rule:evenodd;display:inline;overflow:visible;vector-effect:none;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 393,121.94336 a 15,15 0 0 0 -15,15 15,15 0 0 0 15,15 h 101 a 15,15 0 0 0 15,-15 15,15 0 0 0 -15,-15 z" />
+		<path fill="currentColor"
+   style="baseline-shift:baseline;clip-rule:evenodd;display:inline;overflow:visible;vector-effect:none;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 394,359.94336 a 15,15 0 0 0 -15,15 15,15 0 0 0 15,15 h 95 a 15,15 0 0 0 15,-15 15,15 0 0 0 -15,-15 z" />
+		<path fill="currentColor"
+   style="baseline-shift:baseline;clip-rule:evenodd;display:inline;overflow:visible;vector-effect:none;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="m 22,359.94336 a 15,15 0 0 0 -15,15 15,15 0 0 0 15,15 h 108 a 15,15 0 0 0 15,-15 15,15 0 0 0 -15,-15 z" />
+</g>
+</svg>

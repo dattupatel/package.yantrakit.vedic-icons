@@ -52,6 +52,23 @@ Vedic Icons is a CSS icon font. Include the CSS, add the classes, done. No JavaS
 
 Size, color, rotation, and animation come from your own CSS framework (Tailwind, Bootstrap, etc.).
 
+## Hindi aliases
+
+Most icons also answer to a Hindi name. `vi-baagh` and `vi-tiger` render the same glyph.
+
+```html
+<i class="vi vi-solid vi-baagh"></i>
+<i class="vi vi-outlined vi-haathi"></i>
+```
+
+```js
+import { resolveIcon, canonicalIcon } from '@yantrakit/vedic-icons';
+
+resolveIcon('tiger');    // 'baagh'   — the Hindi name
+resolveIcon('biryani');  // 'biryani' — already Hindi
+canonicalIcon('baagh');  // 'tiger'
+```
+
 ## Contributing
 
 Found a bug or have a feature request? [Open an issue](https://github.com/yantrakitinc/package.yantrakit.vedic-icons/issues).
