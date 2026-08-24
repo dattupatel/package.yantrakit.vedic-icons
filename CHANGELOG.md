@@ -4,6 +4,23 @@ All notable changes to this project will be documented here.
 
 ---
 
+## [0.3.1] - 2026-08-24
+
+### Removed
+
+`categories`, `categoryNames`, `iIconCategory` and `getCategory()`. Categories are for the
+documentation site, not the package — they shipped in 0.3.0 by mistake. Category data lives in
+the site's own `icons.ts`.
+
+### Changed
+
+README trimmed to usage. The design rationale behind aliases belongs in the changelog, not in
+what a consumer reads.
+
+453 icons.
+
+---
+
 ## [0.3.0] - 2026-08-23
 
 ### Added — 292 icons, taking the library from 161 to 453
@@ -44,8 +61,8 @@ New exports: `aliases`, `aliasNames`, `resolveIcon()`.
 ### Added — categories (12)
 
 Every icon now carries a category, so a full icon list can be rendered grouped instead of as one
-undifferentiated grid. New exports: `categories`, `categoryNames`, `iIconCategory`,
-`getCategory()`. The website's `icons.ts` carries a matching `category` field on every entry.
+undifferentiated grid. Carried on the website's `icons.ts`. (0.3.0 also exported these from the
+package; that was a mistake and is reverted in 0.3.1.)
 
 Categories: Deities · Sacred Symbols · Devanagari Script · Temples & Architecture · Landscapes ·
 Festivals & Rituals · Food & Drink · Music & Dance · People & Attire · Ritual & Everyday Objects ·

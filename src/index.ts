@@ -13,11 +13,6 @@
  * <i class="vi vi-diya"></i>
  * ```
  *
- * Most icons also answer to a Hindi alias, so `vi-baagh` and `vi-tiger` render the same
- * glyph. Aliases are ADDITIVE — no published class name changed. An alias exists only where
- * the Hindi name genuinely differs, and never where it would shadow a real icon: `ladoo`,
- * `thali`, `dhanush` and `toran` are icons in their own right, not aliases.
- *
  * @example
  * ```html
  * <i class="vi vi-baagh"></i>
@@ -387,35 +382,4 @@ export const aliasNames = Object.keys(aliases) as readonly string[];
 export function resolveIcon(name: string): iIconName | undefined {
   if ((icons as readonly string[]).includes(name)) return name as iIconName;
   return aliases[name];
-}
-
-/** Category names, in display order. */
-export const categoryNames = ['Deities','Sacred Symbols','Devanagari Script','Temples & Architecture','Landscapes','Festivals & Rituals','Food & Drink','Music & Dance','People & Attire','Ritual & Everyday Objects','Nature & Animals','Cricket'] as const;
-
-/** Type representing a valid category. */
-export type iIconCategory = (typeof categoryNames)[number];
-
-/** Icon names grouped by category — use this to render a categorised icon list. */
-export const categories: Record<iIconCategory, readonly iIconName[]> = {
-  'Deities': ['aditi','agni-dev','alamelu','ardhanareeswara','ardhanarishvara-02','ashoka','ayyappa','balaji','balarama','brahma','brihaspati','buddha','chandi','chandra','devi','devi-eyes','durga','ganesha','ganga-devi','garuda','gayatri','guru','hanumaan','hanumaan-02','hanuman-02','harihara','indra','jagannatha','kali','kalki','kamadeva','kamdhenu','karni-mata','kartikeya','krishna','krishna-02','krishna-with-cow','kuber','kubera','kubera-02','kurma','lakshmi','mahabali','matsya','mitra','mohini','narasimha','nataraja','parashurama','parashurama-02','parvati','radha','rama','ravana','sapta-matrika','saraswati','sesha','shakti','shani','shiva','sita','surya','surya-dev','tridevi','vamana','varaha','varaha-02','varuna','vasudeva','vishnu','vishnu-02','vishwakarma','yama'],
-  'Sacred Symbols': ['ahimsa-hand','anahata-chakra','arrow-fire','ashirwad-blessing','ashoka-chakra','bodhi-leaf','chakra-02','chakras','chandan','chandra-02','chhatra-parasol','dhanush','dhanush-baan','endless-knot','footprint','gada','granth-om','granth-swastika','hamsa-eye','hamsa-hand','hinduist-flag','kalash-swastika','karma','khunda','lingam','mala','mandala','mandala-02','meditation','meditation-02','naga','naga-02','namaste','namaste-hands','om','prayer-wheel','rangoli','rudraksha','shankh','shree','sindoor','svadhishthana','swastika','swastika-02','swastika-book','swastika-lotus','third-eye','tilak','trishul','trishul-02','vajra','vedas','yantra'],
-  'Devanagari Script': ['devanagari-a','devanagari-aa','devanagari-ae','devanagari-ai','devanagari-au','devanagari-aw','devanagari-ba','devanagari-bha','devanagari-cha','devanagari-chha','devanagari-da','devanagari-dda','devanagari-dda-nukta','devanagari-ddha','devanagari-ddha-nukta','devanagari-dha','devanagari-e','devanagari-fa','devanagari-ga','devanagari-gha','devanagari-ghha','devanagari-ha','devanagari-i','devanagari-ii','devanagari-ja','devanagari-jha','devanagari-ka','devanagari-kha','devanagari-khha','devanagari-la','devanagari-li','devanagari-lla','devanagari-llha','devanagari-lri','devanagari-ma','devanagari-na','devanagari-nga','devanagari-nna','devanagari-nya','devanagari-o','devanagari-pa','devanagari-pha','devanagari-qa','devanagari-ra','devanagari-ri','devanagari-rra','devanagari-rri','devanagari-sa','devanagari-sha','devanagari-ssa','devanagari-ta','devanagari-tha','devanagari-tta','devanagari-ttha','devanagari-u','devanagari-uu','devanagari-va','devanagari-ya','devanagari-yya','devanagari-za','hindi-akshar','sanskrit'],
-  'Temples & Architecture': ['agra-fort','balinese-pura','charminar','gateway-of-india','golden-temple','gurdwara','hawa-mahal','humayuns-tomb','india-gate','india-gate-02','india-map','jaisalmer-fort','jama-masjid','jantar-mantar','konark-sun-temple','lal-qila','lotus-temple','meenakshi-temple','national-bravery','prambanan','qutub-minar','rajpath','rashtrapati-bhavan','sansad-bhavan','shola-ghar','stupa','taj-mahal','temple','war-memorial'],
-  'Landscapes': ['ganges-river','lake-pichola','pangong-tso'],
-  'Festivals & Rituals': ['aarti','aarti-02','ayurveda','bodhu-boron','bunting-garland','calendar-holi','calendar-kite','calendar-om','calendar-pongol','calendar-republic-day','calendar-swastika','chhikka','colour-bucket','dhanteras-kalash','diwali-candles','diwali-lamps','diwali-sparkles','diya','diya-02','diya-03','doli','family-gathering','festive-flags','firecracker','firecracker-02','firecraker','havan-fire','holi','homa-havan','incense','kite','kumbh-kalash','loudspeakers','mandap','mangala-snanam','nallapusalu','pichkari','pongal','pongal-02','puja','raksha-bandhan','raksha-bandhan-02','rocket-firecracker','saptapadi','shakha-pola','shirodhara','toran','toran-02','toran-lights','wedding-invitation','wedding-mandap','yagna','yagna-02'],
-  'Food & Drink': ['adrak-ginger','baati','barfi','bhang-leaf','biryani','chai','chiki','chilli-pepper','chutney-jar','coconut-milk','coconut-oil','curry-bowl','curry-rice','dalchini-cinnamon','dum-aloo','falooda','ghee-jar','gujia','gulab-jamun','haldi','handi-pot','herbal-leaf','imli-tamarind','indian-food','jalebi','kanji-vada','kheer','khuder-bhat','kulfi','laddu','ladoo','ladoo-bowl','lassi','laung-clove','malai-kofta','malai-kulfi','mango','mangoes','masala','masala-dosa','mathri','matka-water-jar','medu-vada','momo','mughlai-curry','murukku','naans','nariyal-pani','paan','paneer-makhani','pav-bhaji','peda','rice-sack','saag-paneer','sadhya','samosa','samosa-chai','samosas','sandesh','thali','thandai','tikka-masala','tiranga-halwa','tulsi','vada-pav','wheat'],
-  'Music & Dance': ['bhangra-dancer','damaru','dhol','dhol-drum','dholak','ektara','flute','giddha-dancer','harmonium','kathakali','mridangam','santoor','sarod','shehnai','sitar','sitar-02','swarmandal','tabla','tabla-02','tabla-03','tanpura','veena'],
-  'People & Attire': ['anklet','anklet-02','bangles','bhikkhu-monk','bindi-woman','brahman-elder','dangle-earrings','dangle-earrings-02','face-male-sikh','female','haar-necklace','henna-hand','indian-woman','kumkuma','male-sikh','male-sikh02','mangalsutra','marigold','mehndi-hand','priest','pundit','sari','turban-02','turla-turban-crest'],
-  'Ritual & Everyday Objects': ['auto-rickshaw','auto-rickshaw-02','ayurvedic-bowl','ayurvedic-mortar','coin','diya-04','hand-holding-rupee','hand-rupee-02','hookah','incense-burner','indian-flag','indian-flag-02','japa-mala','kandeel','kapas-cotton','lantern','lantern-02','mortar-pestle','palm-leaf-manuscript','pankha-hand-fan','pinda-sweda','rupee-coin','rupee-note','scroll','scroll-02','scroll-03','scroll-quill','scroll-rolled','scroll-rolled02'],
-  'Nature & Animals': ['banyan-tree','bull','bull-02','cobra','coconut-palm','coconut-palms','cow','cow-02','cow-03','deer','deer-02','elephant','elephant-02','lion','lion-02','lotus','lotus-flower','mango-tree','monkey','monkey-02','monkey-03','peacock','sacred-cow','snake','swan','tiger','tiger-02'],
-  'Cricket': ['cricket-ball','cricket-bat','cricket-cap','cricket-gloves','cricket-helmet','cricket-kit','cricket-pads','cricket-stadium','cricket-stumps','cricket-trophy','cricket-umpire','cricketer'],
-};
-
-/** Category for an icon name or alias. */
-export function getCategory(name: string): iIconCategory | undefined {
-  const key = resolveIcon(name);
-  if (!key) return undefined;
-  return (categoryNames as readonly string[]).find(
-    (c) => categories[c as iIconCategory].includes(key)
-  ) as iIconCategory | undefined;
 }

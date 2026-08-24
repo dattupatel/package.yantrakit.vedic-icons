@@ -54,36 +54,17 @@ Size, color, rotation, and animation come from your own CSS framework (Tailwind,
 
 ## Hindi aliases
 
-Most icons also answer to a Hindi name. `vi-baagh` and `vi-tiger` render the same glyph — an alias
-is a second class rule pointing at the same codepoint, so it costs nothing in the font.
+Most icons also answer to a Hindi name. `vi-baagh` and `vi-tiger` render the same glyph.
 
 ```html
-<i class="vi vi-solid vi-baagh"></i>    <!-- identical to vi-tiger -->
-<i class="vi vi-outlined vi-haathi"></i><!-- identical to vi-elephant -->
+<i class="vi vi-solid vi-baagh"></i>
+<i class="vi vi-outlined vi-haathi"></i>
 ```
 
-Aliases are additive; no published class name changed. An alias exists only where the Hindi name
-genuinely differs, so an icon already called `biryani` has none. Names that are icons in their own
-right — `ladoo`, `thali`, `dhanush`, `toran` — are never used as aliases.
-
 ```js
-import { aliases, resolveIcon } from '@yantrakit/vedic-icons';
+import { resolveIcon } from '@yantrakit/vedic-icons';
 
-resolveIcon('baagh');   // 'tiger'
-resolveIcon('tiger');   // 'tiger'
-resolveIcon('nonsense');// undefined
-```
-
-## Categories
-
-Every icon belongs to one category, for rendering a grouped icon list.
-
-```js
-import { categories, categoryNames, getCategory } from '@yantrakit/vedic-icons';
-
-categoryNames;              // ['Deities', 'Sacred Symbols', 'Devanagari Script', …]
-categories['Deities'];      // ['aditi', 'agni-dev', 'alamelu', …]
-getCategory('baagh');       // 'Nature & Animals'  (aliases resolve too)
+resolveIcon('baagh'); // 'tiger'
 ```
 
 ## Contributing
