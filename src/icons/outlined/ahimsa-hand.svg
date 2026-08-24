@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;">
+<g>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="&#10;&#9;&#9;M280,192V47c0-17.673-14.327-32-32-32h0c-17.673,0-32,14.327-32,32v145"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="&#10;&#9;&#9;M216,192V80c0-17.673-14.327-32-32-32h0c-17.673,0-32,14.327-32,32v144"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="&#10;&#9;&#9;M344,224v-4c0-33.137,26.863-60,60-60h20v0c-5.313,21.253-8,43.078-8,64.985V333c0,90.575-73.425,164-164,164h0&#10;&#9;&#9;c-90.575,0-164-73.425-164-164V192c0-17.673,14.327-32,32-32h0c17.673,0,32,14.327,32,32v32"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="&#10;&#9;&#9;M344,224V96c0-17.673-14.327-32-32-32h0c-17.673,0-32,14.327-32,32v96"/>
+		<circle style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" cx="248" cy="336" r="96"/>
+		<line style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="248" y1="432" x2="248" y2="368"/>
+		<line style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="248" y1="304" x2="248" y2="240"/>
+		<line style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="331.14" y1="384" x2="275.72" y2="352"/>
+		<line style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="220.28" y1="320" x2="164.86" y2="288"/>
+		<line style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="331.14" y1="288" x2="275.72" y2="320"/>
+		<line style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="220.28" y1="352" x2="164.86" y2="384"/>
+		<circle style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" cx="248" cy="336" r="32"/>
+</g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;">
+<g>
+	<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="255" y1="212" x2="225" y2="212"/>
+	<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="165" y1="212" x2="135" y2="212"/>
+		<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="205.607" y1="93.507" x2="184.393" y2="72.293"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M90,242H60c-16.569,0-30-13.431-30-30&#10;&#9;&#9;s13.431-30,30-30h30"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M300,182h30c16.569,0,30,13.431,30,30&#10;&#9;&#9;s-13.431,30-30,30h-30"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M15,497h360v-90c0-33.137-26.863-60-60-60H75&#10;&#9;&#9;c-33.137,0-60,26.863-60,60V497z"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M300,182c0,0-26.447-46.094-83.751-35.719&#10;&#9;&#9;c-14.064,2.546-28.433,2.546-42.497,0C116.447,135.906,90,182,90,182"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M45.491,354.746&#10;&#9;&#9;c-8.854-8.218-14.394-19.957-14.394-32.989c0-16.776,9.18-31.407,22.79-39.146C70.116,273.383,83.066,259.334,90,242"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M344.509,354.746&#10;&#9;&#9;c8.854-8.218,14.394-19.957,14.394-32.989c0-16.776-9.18-31.407-22.79-39.146C319.884,273.383,306.934,259.334,300,242"/>
+	<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="75" y1="347" x2="75" y2="497"/>
+	<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="135" y1="347" x2="135" y2="497"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M135,362c0,33.137,26.863,60,60,60&#10;&#9;&#9;s60-26.863,60-60v-15"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M249.106,15H140.894&#10;&#9;&#9;C110.398,33.373,90,66.803,90,105v137c0,57.99,47.01,105,105,105s105-47.01,105-105V105C300,66.803,279.602,33.373,249.106,15z"/>
+	<polyline style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" points="360,212 390,152 497,152 497,212 &#10;&#9;&#9;360,212 &#9;"/>
+	<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="435" y1="212" x2="435" y2="407"/>
+	<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="435" y1="152" x2="435" y2="107"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M465,497h-90v-60c0-16.569,13.431-30,30-30h60&#10;&#9;&#9;V497z"/>
+</g>
+</svg>

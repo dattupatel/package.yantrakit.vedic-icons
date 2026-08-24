@@ -1,0 +1,19 @@
+<svg
+   viewBox="0 0 682.66669 682.66669"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><g
+     transform="matrix(1.3333333,0,0,-1.3333333,0,682.66667)"><g><g><path fill="currentColor"
+           d="M 497,15 H 15 v 60 h 482 z"
+           style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g></g><g
+       transform="translate(136,75)"><path fill="currentColor"
+         d="M 0,0 V 60 H 240 V 0"
+         style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g><g
+       transform="translate(256,255)"><path fill="currentColor"
+         d="M 0,0 V -120"
+         style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g><g><g><g
+           transform="translate(256,512)"><path fill="currentColor"
+             d="M 0,0 V -45"
+             style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g><g
+           transform="translate(181,135)"><path fill="currentColor"
+             d="m 0,0 30,332 h 90 L 150,0"
+             style="fill:none;stroke:#000000;stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" /></g></g></g></g></svg>

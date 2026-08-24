@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 511.994 511.994" style="enable-background:new 0 0 511.994 511.994;">
+<g>
+		<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="195.997" y1="254.994" x2="225.997" y2="254.994"/>
+		<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="285.997" y1="254.994" x2="315.997" y2="254.994"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M360.996,209.993h30c16.569,0,30,13.431,30,30&#10;&#9;&#9;s-13.431,30-30,30h-30"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M150.997,209.994h-30c-16.569,0-30,13.431-30,30&#10;&#9;&#9;s13.431,30,30,30h30"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M435.997,496.994h-360v-62&#10;&#9;&#9;c0-33.137,26.863-60,60-60h240c33.137,0,60,26.863,60,60V496.994z"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M360.997,269.994c0,57.99-47.01,105-105,105&#10;&#9;&#9;s-105-47.01-105-105l0-96.41c0-57.99,47.01-105,105-105s105,47.01,105,105L360.997,269.994z"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M150.997,209.994&#10;&#9;&#9;c17.052-25.578,44.707-41.862,75.002-44.592l59.995,0c30.295,2.73,57.951,19.014,75.002,44.592"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M106.396,382.792&#10;&#9;&#9;c-9.335-6.821-15.399-17.851-15.399-30.298c0-12.657,6.27-23.849,15.873-30.639c17.75-12.552,32.586-28.779,42.308-48.223&#10;&#9;&#9;l1.819-3.638"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M405.598,382.792&#10;&#9;&#9;c9.335-6.821,15.399-17.851,15.399-30.298c0-12.657-6.27-23.849-15.873-30.639c-17.75-12.552-32.586-28.779-42.308-48.223&#10;&#9;&#9;l-1.819-3.638"/>
+		<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="255.997" y1="210.401" x2="255.997" y2="120.401"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M224.67,8.584&#10;&#9;&#9;c-4.316,6.186-6.855,13.703-6.855,21.818c0,21.087,17.095,38.182,38.182,38.182c21.087,0,38.182-17.095,38.182-38.182&#10;&#9;&#9;c0-8.115-2.539-15.633-6.855-21.818"/>
+		<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="195.997" y1="374.994" x2="195.997" y2="496.994"/>
+		<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="135.997" y1="374.994" x2="135.997" y2="496.994"/>
+		<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="315.997" y1="374.994" x2="315.997" y2="496.994"/>
+		<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="375.997" y1="374.994" x2="375.997" y2="496.994"/>
+		<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="135.997" y1="436.994" x2="195.997" y2="436.994"/>
+		<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="315.997" y1="436.994" x2="375.997" y2="436.994"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M315.997,374.994c0,33.137-26.863,60-60,60&#10;&#9;&#9;s-60-26.863-60-60"/>
+</g>
+</svg>

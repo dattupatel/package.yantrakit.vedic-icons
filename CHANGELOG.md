@@ -4,6 +4,75 @@ All notable changes to this project will be documented here.
 
 ---
 
+## [0.3.0] - 2026-08-23
+
+### Added — 292 icons, taking the library from 161 to 453
+
+Sourced as **pack pairs** (an outline pack and its matching fill pack) rather than icon by icon,
+so every addition arrives with both variants already matched. Each pair was checked before it was
+kept: filenames aligned by index — never by slug, because slugs repeat within a pack and would
+mispair — then colour purity, then a rendered outline-beside-fill sheet reviewed by eye.
+
+The largest single addition is the **complete Devanagari varnamala**, 62 glyphs: every vowel and
+consonant including the nukta forms क़ ख़ ग़ ड़ ढ़ फ़ य़ and ळ ऴ ऱ ष ॠ ऌ. Also added: Indian
+monuments and landscapes (Ganges, Pangong Tso, Lake Pichola, Jaisalmer Fort, Humayun's Tomb, Jama
+Masjid, Jantar Mantar, Rashtrapati Bhavan), Indian food and spices, instruments, and cricket.
+
+### Added — Hindi aliases (346 of them)
+
+`vi-baagh` and `vi-tiger` render the same glyph. An alias is a second CSS class rule pointing at
+the same codepoint, so it costs nothing in the font.
+
+```html
+<i class="vi vi-solid vi-baagh"></i>   <!-- identical to vi-tiger -->
+```
+
+Aliases are **additive — no published class name changed.** An alias exists only where the Hindi
+name genuinely differs; an icon already called `biryani` gets none, because a second identical
+name is noise. Three rules are enforced at build time:
+
+- an alias may never **shadow a real icon** — `ladoo`, `thali`, `dhanush` and `toran` are icons in
+  their own right, so they are not aliases of anything;
+- **no alias is claimed by two icons** — `gaay` and `naag` both collided during authoring and were
+  given to the longer-published icon;
+- `build-css.mjs` **throws if aliases are defined but none are emitted**, and warns per alias that
+  points at an icon with no glyph. A silent zero would ship a stylesheet where every `vi-baagh`
+  renders nothing.
+
+New exports: `aliases`, `aliasNames`, `resolveIcon()`.
+
+### Added — categories (12)
+
+Every icon now carries a category, so a full icon list can be rendered grouped instead of as one
+undifferentiated grid. New exports: `categories`, `categoryNames`, `iIconCategory`,
+`getCategory()`. The website's `icons.ts` carries a matching `category` field on every entry.
+
+Categories: Deities · Sacred Symbols · Devanagari Script · Temples & Architecture · Landscapes ·
+Festivals & Rituals · Food & Drink · Music & Dance · People & Attire · Ritual & Everyday Objects ·
+Nature & Animals · Cricket.
+
+### Fixed
+
+- **45 incoming icons carried a `clipPath`** that `process-icons.mjs` correctly refuses. They were
+  Inkscape no-ops — `M 0,512 H 512 V 0 H 0 Z`, a full-canvas rectangle clipping nothing. Stripped
+  at source, each one verified lossless by re-rendering before and after: **max pixel difference 2
+  across all 45.** No icon was added under a clip the font could not represent.
+- **12 files used `fill="rgb(0,0,0)"` or a masked `white`**, neither of which `cleanSvg` converts.
+  They would have rendered hard black and ignored `currentColor` in every theme. Normalised to
+  `#000000`, same lossless check.
+- **`@types/node` was missing**, so `pnpm typecheck` failed on `build.test.ts` with
+  `Cannot find module 'fs'`. Added; typecheck is clean.
+
+### Note
+
+`gyan-mudra`, `mudra`, `naan`, `turban`, `zodiac-wheel` and `dhoti` remain withdrawn, as in 0.2.12.
+Stale glyph files for four of them exist under `src/icons/` and are excluded by name, not by
+their presence on disk.
+
+453 icons.
+
+---
+
 ## [0.2.12] - 2026-08-23
 
 ### Removed

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;">
+<g>
+	<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="316" y1="225" x2="286" y2="225"/>
+	<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="226" y1="225" x2="196" y2="225"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M151,165h-30c-16.569,0-30,13.431-30,30&#10;&#9;&#9;s13.431,30,30,30h30"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M361,165h30c16.569,0,30,13.431,30,30&#10;&#9;&#9;s-13.431,30-30,30h-30"/>
+	<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="151" y1="165" x2="361" y2="165"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M391,165v-30c0-33.137-26.863-60-60-60H181&#10;&#9;&#9;c-33.137,0-60,26.863-60,60v30"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M361,165v75c0,57.99-47.01,105-105,105&#10;&#9;&#9;s-105-47.01-105-105v-75"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M331,75V45c0-16.569-13.431-30-30-30h-90&#10;&#9;&#9;c-16.569,0-30,13.431-30,30v30"/>
+	<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="256" y1="165" x2="256" y2="75"/>
+	<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="316" y1="165" x2="316" y2="120"/>
+	<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="256" y1="452" x2="256" y2="407"/>
+	<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="196" y1="165" x2="196" y2="120"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M436,345c0,0-15,92-105,152"/>
+	<rect x="76" y="345" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M76,345c0,0,15,92,105,152"/>
+	<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="331" y1="497" x2="331" y2="345"/>
+	<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="181" y1="497" x2="181" y2="345"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M331,345c0,34.242-33.579,62-75,62&#10;&#9;&#9;s-75-27.758-75-62"/>
+	<circle style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" cx="391" cy="255" r="30"/>
+	<circle style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" cx="121" cy="255" r="30"/>
+</g>
+</svg>

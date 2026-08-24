@@ -7,6 +7,16 @@ const root = path.resolve(__dirname, '..');
 
 const utilitiesCss = fs.readFileSync(path.resolve(root, 'src/css/utilities.css'), 'utf-8');
 
+// Hindi aliases, read from the package's own source of truth so CSS and TS cannot disagree.
+const indexTs = fs.readFileSync(path.resolve(root, 'src/index.ts'), 'utf-8');
+const aliasBlock = indexTs.match(/export const aliases[^=]*= \{([\s\S]*?)\n\};/);
+const aliasMap = {};
+if (aliasBlock) {
+  for (const m of aliasBlock[1].matchAll(/'([^']+)':\s*'([^']+)'/g)) aliasMap[m[1]] = m[2];
+}
+const aliasEmitted = new Set();
+const perStyleAliases = {};
+
 const styles = ['solid', 'outlined'];
 const allFontFaces = [];
 const allStyleBlocks = [];
@@ -48,6 +58,22 @@ for (const style of styles) {
   allStyleBlocks.push(
     ...iconRules.map(({ className, content }) => `.vi-${style}.${className}::before { content: "${content}"; }`)
   );
+
+  // Hindi aliases render the SAME codepoint — an alias is a second class rule, not a second glyph,
+  // so this costs nothing in the font. Built from src/index.ts so the CSS and the exported
+  // `aliases` map can never drift apart.
+  const aliasRules = [];
+  for (const [alias, canonical] of Object.entries(aliasMap)) {
+    const rule = iconRules.find((r) => r.className === `vi-${canonical}`);
+    // A glyph missing in THIS style is normal (many icons are solid-only); skip quietly here and
+    // let the totals below report it. An alias pointing at a name that exists in NEITHER style is
+    // a real error and is caught by the reconciliation after the loop.
+    if (!rule) continue;
+    aliasRules.push(`.vi-${style}.vi-${alias}::before { content: "${rule.content}"; }`);
+    aliasEmitted.add(alias);
+  }
+  allStyleBlocks.push(...aliasRules);
+  perStyleAliases[style] = aliasRules.length;
   allStyleBlocks.push('');
 
   // Clean up glyphs file
@@ -71,6 +97,22 @@ const lines = [
   ...allStyleBlocks,
   utilitiesCss,
 ];
+
+// Zero aliases emitted when the map is non-empty means the wiring broke — say so loudly rather
+// than shipping a stylesheet where every vi-baagh silently renders nothing.
+const aliasTotal = Object.keys(aliasMap).length;
+if (aliasTotal > 0 && aliasEmitted.size === 0) {
+  throw new Error(`build-css: ${aliasTotal} aliases defined but none emitted — alias wiring is broken`);
+}
+const orphanAliases = Object.entries(aliasMap)
+  .filter(([a]) => !aliasEmitted.has(a))
+  .map(([a, c]) => `${a} -> ${c}`);
+if (orphanAliases.length) {
+  console.warn(`build-css: ${orphanAliases.length} alias(es) point at an icon with no glyph in any style:`);
+  for (const o of orphanAliases) console.warn(`   ${o}`);
+}
+console.log(`build-css: aliases defined ${aliasTotal}, emitted ${aliasEmitted.size}` +
+  Object.entries(perStyleAliases).map(([k, v]) => `, ${k} ${v}`).join(''));
 
 const output = lines.join('\n');
 

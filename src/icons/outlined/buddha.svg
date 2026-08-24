@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;">
+<g>
+	<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="316" y1="210" x2="286" y2="210"/>
+	<line style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" x1="226" y1="210" x2="196" y2="210"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M151,180h-30c-16.569,0-30,13.431-30,30&#10;&#9;&#9;s13.431,30,30,30h30"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M361,180h30c16.569,0,30,13.431,30,30&#10;&#9;&#9;s-13.431,30-30,30h-30"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M301,75c33.137,0,60,26.863,60,60v105&#10;&#9;&#9;c0,57.99-47.01,105-105,105s-105-47.01-105-105V135c0-33.137,26.863-60,60-60H301z"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M76,497h360v-92c0-33.137-26.863-60-60-60H136&#10;&#9;&#9;c-33.137,0-60,26.863-60,60V497z"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M211,75V60c0-24.853,20.147-45,45-45&#10;&#9;&#9;s45,20.147,45,45v15"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M316,345c0,50.81-41.19,92-92,92h-88v60"/>
+	<path fill="currentColor" style="fill:none;stroke:#000000;stroke-width:30;stroke-miterlimit:10;" d="M151,180c0-24.853,20.147-45,45-45h26.468&#10;&#9;&#9;c8.24,9.203,20.207,15,33.532,15s25.293-5.796,33.532-15H316c24.853,0,45,20.147,45,45"/>
+</g>
+</svg>
