@@ -1,0 +1,59 @@
+<svg
+   x="0px"
+   y="0px"
+   viewBox="0 0 512 512"
+   style="enable-background:new 0 0 512 512;"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs />
+<g>
+		<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="M81.000,492.000L431.000,492.000L431.000,402.000L81.000,402.000L81.000,492.000ZM111.000,462.000L111.000,432.000L401.000,432.000L401.000,462.000L111.000,462.000Z"
+   />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="M66.000,382.000C41.325,382.000 21.000,402.325 21.000,427.000L21.000,467.000C21.000,491.675 41.325,512.000 66.000,512.000C90.675,512.000 111.000,491.675 111.000,467.000L111.000,427.000C111.000,402.325 90.675,382.000 66.000,382.000ZM66.000,412.000C74.463,412.000 81.000,418.537 81.000,427.000L81.000,467.000C81.000,475.463 74.463,482.000 66.000,482.000C57.537,482.000 51.000,475.463 51.000,467.000L51.000,427.000C51.000,418.537 57.537,412.000 66.000,412.000Z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="M446.000,382.000C421.325,382.000 401.000,402.325 401.000,427.000L401.000,467.000C401.000,491.675 421.325,512.000 446.000,512.000C470.675,512.000 491.000,491.675 491.000,467.000L491.000,427.000C491.000,402.325 470.675,382.000 446.000,382.000ZM446.000,412.000C454.463,412.000 461.000,418.537 461.000,427.000L461.000,467.000C461.000,475.463 454.463,482.000 446.000,482.000C437.537,482.000 431.000,475.463 431.000,467.000L431.000,427.000C431.000,418.537 437.537,412.000 446.000,412.000Z" />
+		<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="M81.000,110.000L431.000,110.000L431.000,20.000L81.000,20.000L81.000,110.000ZM111.000,80.000L111.000,50.000L401.000,50.000L401.000,80.000L111.000,80.000Z"
+   />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="M66.000,0.000C41.325,0.000 21.000,20.325 21.000,45.000L21.000,85.000C21.000,109.675 41.325,130.000 66.000,130.000C90.675,130.000 111.000,109.675 111.000,85.000L111.000,45.000C111.000,20.325 90.675,0.000 66.000,0.000ZM66.000,30.000C74.463,30.000 81.000,36.537 81.000,45.000L81.000,85.000C81.000,93.463 74.463,100.000 66.000,100.000C57.537,100.000 51.000,93.463 51.000,85.000L51.000,45.000C51.000,36.537 57.537,30.000 66.000,30.000Z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="M446.000,0.000C421.325,0.000 401.000,20.325 401.000,45.000L401.000,85.000C401.000,109.675 421.325,130.000 446.000,130.000C470.675,130.000 491.000,109.675 491.000,85.000L491.000,45.000C491.000,20.325 470.675,0.000 446.000,0.000ZM446.000,30.000C454.463,30.000 461.000,36.537 461.000,45.000L461.000,85.000C461.000,93.463 454.463,100.000 446.000,100.000C437.537,100.000 431.000,93.463 431.000,85.000L431.000,45.000C431.000,36.537 437.537,30.000 446.000,30.000Z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="M0.000,432.000L0.000,462.000L36.000,462.000L36.000,432.000L0.000,432.000Z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="M0.000,50.000L0.000,80.000L36.000,80.000L36.000,50.000L0.000,50.000Z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="M476.000,432.000L476.000,462.000L512.000,462.000L512.000,432.000L476.000,432.000Z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="M476.000,50.000L476.000,80.000L512.000,80.000L512.000,50.000L476.000,50.000Z" />
+	<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="M81.000,80.000L81.000,171.213L97.213,187.426L81.000,203.641L81.000,432.000L431.000,432.000L431.000,340.787L414.787,324.574L431.000,308.359L431.000,80.000L81.000,80.000ZM111.000,110.000L401.000,110.000L401.000,295.934L372.361,324.574L401.000,353.213L401.000,402.000L111.000,402.000L111.000,216.066L139.639,187.426L111.000,158.787L111.000,110.000Z" />
+	<g>
+		<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="M186.000,151.000L186.000,181.000L326.000,181.000L326.000,151.000L186.000,151.000Z" />
+		<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="M155.500,211.000L155.500,241.000L356.500,241.000L356.500,211.000L155.500,211.000Z" />
+		<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="M155.500,271.000L155.500,301.000L356.500,301.000L356.500,271.000L155.500,271.000Z" />
+		<path fill="currentColor"
+   style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;stroke-miterlimit:10;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1"
+   d="M186.000,331.000L186.000,361.000L326.000,361.000L326.000,331.000L186.000,331.000Z" />
+	</g>
+</g>
+</svg>
