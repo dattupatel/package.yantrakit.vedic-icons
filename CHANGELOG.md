@@ -4,6 +4,52 @@ All notable changes to this project will be documented here.
 
 ---
 
+## [0.4.1] - 2026-08-24
+
+Every icon was reviewed individually, comparing each built glyph against its own source.
+
+### Removed — six icons, one variant
+
+`khanda` (the artwork is a shepherd's crook, not the Sikh sword emblem) and `krishna-with-cow`
+(broken source: viewBox 64 on artwork spanning ~895, so it rendered as a magnified crop).
+
+`gyan-mudra`, `mudra`, `naan` and `turban` were withdrawn from the icon list back in 0.2.12, but
+their sources were left behind, so the font kept building glyphs and the CSS kept emitting classes
+the package never listed. Those classes are now gone too.
+
+`gadaa` loses its solid variant — the file was a second outline drawing, not a fill. It ships
+outline-only rather than shipping a fake solid.
+
+**Breaking** only if you referenced one of those classes directly.
+
+### Changed — names
+
+Cricket icons now take their English name, with the Hindi as alias: `cricket-bat`, `cricket-ball`,
+`cricket-gloves`, `cricket-umpire`, `cricketer`, `cricket-stadium`, `cricket-cap`.
+
+Also renamed: `bhikshu` to `sadhu`, `bhonpu` to `speakers`, `bow-arrow` to `dhanush-baan`,
+`chandra-devta` to `chandra`, `matsya` to `matsya-avatar`, `nimantran` to `nimantran-patra`, and
+`bansuri` to `shahnai-02` (the artwork is a bulbed horn, not a side-blown flute).
+
+Every previous name is kept as an alias, so none of these break existing markup.
+
+### Fixed
+
+Element-level `transform` attributes were mishandled in conversion and put a spurious filled wedge
+through `patra`. All 99 affected variants had their transforms baked into path data, each gated on
+rendering pixel-identical to its original; no source carries a transform now.
+
+Seven outline/solid pairs were swapped, because the source pack labels its lineal file "Solid":
+`humayun-ka-maqbara`, `jaisalmer`, `jama-masjid`, `pangong-jheel`, `jantar-mantar`,
+`pichola-jheel`, `rashtrapati-bhawan`.
+
+`ghee` no longer has the Latin word GHEE drawn into it; the label band is now a glass section with
+a highlight.
+
+451 icons, 890 glyphs (solid 440, outlined 450).
+
+---
+
 ## [0.4.0] - 2026-08-24
 
 ### Changed — `resolveIcon` now returns the Hindi name
